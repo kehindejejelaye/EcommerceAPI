@@ -1,32 +1,42 @@
 [
   {
+    "Id": "e493d92c-8dc7-4a3b-8ad1-19df8b9b478a",
     "Name": "Tops"
   },
   {
+    "Id": "c7eb51a3-98e7-44e3-b7a0-4b352ee0cde7",
     "Name": "Bottoms"
   },
   {
+    "Id": "7afaaac7-1d80-4863-80e3-547b92ed84b2",
     "Name": "Suits & Blazers"
   },
   {
+    "Id": "8f230084-1e96-4cc3-9c9c-67cb8b938c88",
     "Name": "Activewear"
   },
   {
+    "Id": "3495733a-55ea-4a40-9123-2ad0d4b56d0a",
     "Name": "Outerwear"
   },
   {
+    "Id": "e99b2a4d-194f-4e5b-ba2e-14b0640c78d1",
     "Name": "Underwear & Sleepwear"
   },
   {
+    "Id": "b42856c7-2e81-476c-988c-87ad8d18fb52",
     "Name": "Accessories"
   },
   {
+    "Id": "4e1da38b-44f7-402f-b5bc-04976c4e0483",
     "Name": "Shoes"
   },
   {
+    "Id": "67de71e3-6280-4e60-a6b0-3a55fb3c3e51",
     "Name": "Formal Wear"
   },
   {
+    "Id": "ac44b0a6-44e9-417b-8c55-08f4c5b73f6b",
     "Name": "Swimwear"
   }
 ]
