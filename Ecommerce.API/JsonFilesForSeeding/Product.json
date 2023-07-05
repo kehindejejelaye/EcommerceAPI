@@ -1,0 +1,250 @@
+[
+  {
+    "Name": "T-shirts",
+    "Description": "Comfortable and versatile, T-shirts are wardrobe essentials. Perfect for casual occasions and can be easily paired with jeans or shorts.",
+    "ImageUrl": "https://example.com/images/t-shirts.jpg",
+    "CategoryId": "e493d92c-8dc7-4a3b-8ad1-19df8b9b478a"
+  },
+  {
+    "Name": "Shirts",
+    "Description": "Classic and stylish, shirts are suitable for both formal and casual looks. They can be worn with trousers or jeans for various occasions.",
+    "ImageUrl": "https://example.com/images/shirts.jpg",
+    "CategoryId": "e493d92c-8dc7-4a3b-8ad1-19df8b9b478a"
+  },
+  {
+    "Name": "Polo Shirts",
+    "Description": "Polo shirts offer a smart-casual appearance. They are comfortable and ideal for a sporty yet sophisticated look.",
+    "ImageUrl": "https://example.com/images/polo-shirts.jpg",
+    "CategoryId": "e493d92c-8dc7-4a3b-8ad1-19df8b9b478a"
+  },
+  {
+    "Name": "Hoodies",
+    "Description": "Hoodies are perfect for a relaxed and cozy style. Great for colder weather or casual outings.",
+    "ImageUrl": "https://example.com/images/hoodies.jpg",
+    "CategoryId": "e493d92c-8dc7-4a3b-8ad1-19df8b9b478a"
+  },
+  {
+    "Name": "Sweaters",
+    "Description": "Sweaters provide warmth and style during chilly days. They come in various designs and materials to suit different preferences.",
+    "ImageUrl": "https://example.com/images/sweaters.jpg",
+    "CategoryId": "e493d92c-8dc7-4a3b-8ad1-19df8b9b478a"
+  },
+  {
+    "Name": "Jackets",
+    "Description": "Jackets are versatile outerwear options. They offer protection from the elements while adding a fashionable touch to your outfit.",
+    "ImageUrl": "https://example.com/images/jackets.jpg",
+    "CategoryId": "e493d92c-8dc7-4a3b-8ad1-19df8b9b478a"
+  },
+  {
+    "Name": "Jeans",
+    "Description": "Jeans are timeless and versatile bottoms that can be dressed up or down. They are a staple in any wardrobe.",
+    "ImageUrl": "https://example.com/images/jeans.jpg",
+    "CategoryId": "c7eb51a3-98e7-44e3-b7a0-4b352ee0cde7"
+  },
+  {
+    "Name": "Pants",
+    "Description": "Pants are essential for a smart and formal look. They come in different styles, such as dress pants and chinos, suitable for various occasions.",
+    "ImageUrl": "https://example.com/images/pants.jpg",
+    "CategoryId": "c7eb51a3-98e7-44e3-b7a0-4b352ee0cde7"
+  },
+  {
+    "Name": "Shorts",
+    "Description": "Shorts are perfect for warmer days or casual outings. They offer comfort and freedom of movement.",
+    "ImageUrl": "https://example.com/images/shorts.jpg",
+    "CategoryId": "c7eb51a3-98e7-44e3-b7a0-4b352ee0cde7"
+  },
+  {
+    "Name": "Joggers",
+    "Description": "Joggers are comfortable and trendy pants designed for casual and athletic wear. They provide a relaxed yet stylish look.",
+    "ImageUrl": "https://example.com/images/joggers.jpg",
+    "CategoryId": "c7eb51a3-98e7-44e3-b7a0-4b352ee0cde7"
+  },
+  {
+    "Name": "Chinos",
+    "Description": "Chinos are versatile pants suitable for both casual and semi-formal occasions. They offer a polished and refined appearance.",
+    "ImageUrl": "https://example.com/images/chinos.jpg",
+    "CategoryId": "c7eb51a3-98e7-44e3-b7a0-4b352ee0cde7"
+  },
+  {
+    "Name": "Suits",
+    "Description": "Suits are elegant and formal attire for special occasions, business meetings, or professional settings. They exude sophistication and style.",
+    "ImageUrl": "https://example.com/images/suits.jpg",
+    "CategoryId": "7afaaac7-1d80-4863-80e3-547b92ed84b2"
+  },
+  {
+    "Name": "Blazers",
+    "Description": "Blazers are versatile jackets that can elevate your outfit. They add a touch of class and can be paired with dress pants or jeans for a stylish look.",
+    "ImageUrl": "https://example.com/images/blazers.jpg",
+    "CategoryId": "7afaaac7-1d80-4863-80e3-547b92ed84b2"
+  },
+  {
+    "Name": "Suit Separates",
+    "Description": "Suit separates allow you to mix and match jackets and pants to create a customized suit. They offer flexibility in style and fit.",
+    "ImageUrl": "https://example.com/images/suit-separates.jpg",
+    "CategoryId": "7afaaac7-1d80-4863-80e3-547b92ed84b2"
+  },
+  {
+    "Name": "Workout Tops",
+    "Description": "Workout tops are designed for physical activities and exercise. They provide comfort, moisture-wicking properties, and freedom of movement.",
+    "ImageUrl": "https://example.com/images/workout-tops.jpg",
+    "CategoryId": "8f230084-1e96-4cc3-9c9c-67cb8b938c88"
+  },
+  {
+    "Name": "Workout Pants",
+    "Description": "Workout pants are specially designed for athletic activities. They offer flexibility, breathability, and comfort during workouts or sports.",
+    "ImageUrl": "https://example.com/images/workout-pants.jpg",
+    "CategoryId": "8f230084-1e96-4cc3-9c9c-67cb8b938c88"
+  },
+  {
+    "Name": "Athletic Shorts",
+    "Description": "Athletic shorts are perfect for sports or casual activities. They provide comfort, freedom of movement, and breathability during physical exertion.",
+    "ImageUrl": "https://example.com/images/athletic-shorts.jpg",
+    "CategoryId": "8f230084-1e96-4cc3-9c9c-67cb8b938c88"
+  },
+  {
+    "Name": "Sports Jerseys",
+    "Description": "Sports jerseys are apparel worn by athletes and fans to support their favorite sports teams. They showcase team logos and player names or numbers.",
+    "ImageUrl": "https://example.com/images/sports-jerseys.jpg",
+    "CategoryId": "8f230084-1e96-4cc3-9c9c-67cb8b938c88"
+  },
+  {
+    "Name": "Parkas",
+    "Description": "Parkas are heavy, insulated coats designed to provide warmth in extremely cold conditions. They often feature a fur-lined hood for added comfort.",
+    "ImageUrl": "https://example.com/images/parkas.jpg",
+    "CategoryId": "3495733a-55ea-4a40-9123-2ad0d4b56d0a"
+  },
+  {
+    "Name": "Vests",
+    "Description": "Vests are sleeveless garments worn over shirts or sweaters. They add a stylish layer to your outfit and provide extra warmth in cooler weather.",
+    "ImageUrl": "https://example.com/images/vests.jpg",
+    "CategoryId": "3495733a-55ea-4a40-9123-2ad0d4b56d0a"
+  },
+  {
+    "Name": "Boxers",
+    "Description": "Boxers are loose-fitting underwear that offer comfort and freedom of movement. They are a popular choice for men's undergarments.",
+    "ImageUrl": "https://example.com/images/boxers.jpg",
+    "CategoryId": "e99b2a4d-194f-4e5b-ba2e-14b0640c78d1"
+  },
+  {
+    "Name": "Briefs",
+    "Description": "Briefs are snug-fitting underwear that provides support and a streamlined fit. They offer comfort and are suitable for various activities.",
+    "ImageUrl": "https://example.com/images/briefs.jpg",
+    "CategoryId": "e99b2a4d-194f-4e5b-ba2e-14b0640c78d1"
+  },
+  {
+    "Name": "Socks",
+    "Description": "Socks are essential foot coverings that provide comfort and help absorb moisture. They come in various lengths and styles for different purposes.",
+    "ImageUrl": "https://example.com/images/socks.jpg",
+    "CategoryId": "e99b2a4d-194f-4e5b-ba2e-14b0640c78d1"
+  },
+  {
+    "Id": "3e536c0e-74d5-4da2-ba44-7a1a5bfe408f",
+    "Name": "Pajamas",
+    "Description": "Pajamas are comfortable sleepwear typically consisting of a loose-fitting top and pants. They are designed for relaxation and a good night's sleep.",
+    "ImageUrl": "https://example.com/images/pajamas.jpg",
+    "CategoryId": "e99b2a4d-194f-4e5b-ba2e-14b0640c78d1"
+  },
+  {
+    "Id": "5278d2a5-3a23-4e82-8d10-0f2e4ae741e3",
+    "Name": "Robes",
+    "Description": "Robes are loose-fitting garments worn for lounging or after bathing. They provide comfort and warmth while allowing ease of movement.",
+    "ImageUrl": "https://example.com/images/robes.jpg",
+    "CategoryId": "e99b2a4d-194f-4e5b-ba2e-14b0640c78d1"
+  },
+  {
+    "Name": "Swim Trunks",
+    "Description": "Swim trunks are swimwear for men, suitable for beach or pool activities. They are designed to be quick-drying and comfortable in the water.",
+    "ImageUrl": "https://example.com/images/swim-trunks.jpg",
+    "CategoryId": "ac44b0a6-44e9-417b-8c55-08f4c5b73f6b"
+  },
+  {
+    "Name": "Boardshorts",
+    "Description": "Boardshorts are longer swim trunks often worn for water sports like surfing or paddleboarding. They provide freedom of movement and durability.",
+    "ImageUrl": "https://example.com/images/boardshorts.jpg",
+    "CategoryId": "ac44b0a6-44e9-417b-8c55-08f4c5b73f6b"
+  },
+  {
+    "Id": "9d2a800d-2d52-4d3f-9fbf-3788d56ef529",
+    "Name": "Ties",
+    "Description": "Ties are accessories worn around the neck, typically with formal attire. They add a touch of elegance and style to a gentleman's outfit.",
+    "ImageUrl": "https://example.com/images/ties.jpg",
+    "CategoryId": "b42856c7-2e81-476c-988c-87ad8d18fb52"
+  },
+  {
+    "Id": "1d28c2d7-3f46-4fc6-bc33-8e2b883be9f1",
+    "Name": "Belts",
+    "Description": "Belts are fashion accessories worn around the waist to secure clothing and add a stylish touch. They come in various materials and designs.",
+    "ImageUrl": "https://example.com/images/belts.jpg",
+    "CategoryId": "b42856c7-2e81-476c-988c-87ad8d18fb52"
+  },
+  {
+    "Id": "4ec9a458-ebfb-4643-91c2-d8c37b8b2a51",
+    "Name": "Hats",
+    "Description": "Hats are head coverings that provide style and protection from the sun. They come in various shapes, sizes, and materials for different occasions.",
+    "ImageUrl": "https://example.com/images/hats.jpg",
+    "CategoryId": "b42856c7-2e81-476c-988c-87ad8d18fb52"
+  },
+  {
+    "Id": "6fcd120e-50f0-4ed1-8ea9-bd7839d5e62e",
+    "Name": "Caps",
+    "Description": "Caps are casual headwear with a brim that shields the face from the sun. They are popular for sports, outdoor activities, and everyday wear.",
+    "ImageUrl": "https://example.com/images/caps.jpg",
+    "CategoryId": "b42856c7-2e81-476c-988c-87ad8d18fb52"
+  },
+  {
+    "Id": "8eb548c5-48e5-4df9-90f2-0b2cb1a45964",
+    "Name": "Wallets",
+    "Description": "Wallets are small accessories used to store money, cards, and other essentials. They come in various styles and materials for different needs.",
+    "ImageUrl": "https://example.com/images/wallets.jpg",
+    "CategoryId": "b42856c7-2e81-476c-988c-87ad8d18fb52"
+  },
+  {
+    "Id": "b3b284eb-0e5f-4eae-8b9f-6a16e37887d6",
+    "Name": "Watches",
+    "Description": "Watches are timekeeping devices worn on the wrist. They not only tell time but also serve as fashionable accessories that reflect personal style.",
+    "ImageUrl": "https://example.com/images/watches.jpg",
+    "CategoryId": "b42856c7-2e81-476c-988c-87ad8d18fb52"
+  },
+  {
+    "Id": "92a5d71a-0e96-4e15-9e3e-3d8490977df6",
+    "Name": "Sunglasses",
+    "Description": "Sunglasses are eyewear designed to protect the eyes from sunlight and harmful UV rays. They come in various styles and lens options.",
+    "ImageUrl": "https://example.com/images/sunglasses.jpg",
+    "CategoryId": "b42856c7-2e81-476c-988c-87ad8d18fb52"
+  },
+  {
+    "Id": "2eb30d37-9e83-4310-8a03-4c91286d2567",
+    "Name": "Dress Shoes",
+    "Description": "Dress shoes are formal footwear designed for special occasions and formal attire. They offer a sophisticated and elegant look.",
+    "ImageUrl": "https://example.com/images/dress-shoes.jpg",
+    "CategoryId": "4e1da38b-44f7-402f-b5bc-04976c4e0483"
+  },
+  {
+    "Id": "b3c88c2a-68a9-453a-b7ff-73bcb7404c8a",
+    "Name": "Casual Shoes",
+    "Description": "Casual shoes are versatile footwear suitable for everyday wear and informal occasions. They provide comfort and a laid-back style.",
+    "ImageUrl": "https://example.com/images/casual-shoes.jpg",
+    "CategoryId": "4e1da38b-44f7-402f-b5bc-04976c4e0483"
+  },
+  {
+    "Id": "f3eef4a7-8762-48db-a699-c0b2d7897881",
+    "Name": "Sneakers",
+    "Description": "Sneakers are athletic shoes designed for sports and everyday activities. They offer comfort, support, and a trendy, sporty look.",
+    "ImageUrl": "https://example.com/images/sneakers.jpg",
+    "CategoryId": "4e1da38b-44f7-402f-b5bc-04976c4e0483"
+  },
+  {
+    "Id": "974bd638-6072-4a45-868b-952d6f03b058",
+    "Name": "Boots",
+    "Description": "Boots are sturdy footwear that covers the foot and extends above the ankle. They provide durability, protection, and style for various purposes.",
+    "ImageUrl": "https://example.com/images/boots.jpg",
+    "CategoryId": "4e1da38b-44f7-402f-b5bc-04976c4e0483"
+  },
+  {
+    "Id": "d4e1f09b-8a01-4d57-9518-35a1d1a37ef0",
+    "Name": "Sandals",
+    "Description": "Sandals are open-toe footwear that consists of straps or a sole attached to the foot with straps. They offer breathability and comfort for warm weather.",
+    "ImageUrl": "https://example.com/images/sandals.jpg",
+    "CategoryId": "4e1da38b-44f7-402f-b5bc-04976c4e0483"
+  }
+]
