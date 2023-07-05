@@ -1,4 +1,5 @@
 ﻿using Ecommerce.API.Entities;
+using Ecommerce.API.Entities.EntityConfiguration;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
@@ -35,6 +36,8 @@ public class EcommerceContext : IdentityDbContext<ApplicationUser>
         modelBuilder.Entity<OrderItem>()
             .Property(p => p.Price)
             .HasColumnType("decimal(18,2)");
+
+        modelBuilder.ApplyConfiguration(new ProductItemVariantOptionConfiguration());
     }
 
 }
