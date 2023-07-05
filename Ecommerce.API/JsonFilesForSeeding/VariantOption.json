@@ -1,0 +1,52 @@
+[
+  {
+    "Id": "5e748d79-1c4f-4ad6-a3c2-895ee1947e10",
+    "Value": "S",
+    "VariantId": "4a6b071a-65a7-4e4f-94a6-6d745f8ec00f"
+  },
+  {
+    "Id": "4e2b19e0-2a35-4e3c-9f78-1280e09ff835",
+    "Value": "M",
+    "VariantId": "4a6b071a-65a7-4e4f-94a6-6d745f8ec00f"
+  },
+  {
+    "Id": "a96ed5b2-16e4-43ff-bc11-9f8f09ebe9b4",
+    "Value": "L",
+    "VariantId": "4a6b071a-65a7-4e4f-94a6-6d745f8ec00f"
+  },
+  {
+    "Id": "383f3a2b-bf4d-4c50-9ce1-55d7074bc3d6",
+    "Value": "XL",
+    "VariantId": "4a6b071a-65a7-4e4f-94a6-6d745f8ec00f"
+  },
+  {
+    "Id": "739d1d10-3637-42e4-81fe-b3f648ca5c61",
+    "Value": "XXL",
+    "VariantId": "4a6b071a-65a7-4e4f-94a6-6d745f8ec00f"
+  },
+  {
+    "Id": "e668d7b3-013a-4b1e-8e85-cd0e0e4e3a7e",
+    "Value": "Red",
+    "VariantId": "49a0e6b9-83dd-4d1e-9972-880a4d5efb97"
+  },
+  {
+    "Id": "7ef287c3-42b4-4a25-a184-8f0dc9d43c5f",
+    "Value": "Blue",
+    "VariantId": "49a0e6b9-83dd-4d1e-9972-880a4d5efb97"
+  },
+  {
+    "Id": "c485be68-8307-47b0-9d8e-8015ac2ce4db",
+    "Value": "Green",
+    "VariantId": "49a0e6b9-83dd-4d1e-9972-880a4d5efb97"
+  },
+  {
+    "Id": "d7bce905-1db1-47ce-944d-9307923e10d4",
+    "Value": "Black",
+    "VariantId": "49a0e6b9-83dd-4d1e-9972-880a4d5efb97"
+  },
+  {
+    "Id": "1c6ddc66-cfd0-4388-8838-107dab73f729",
+    "Value": "White",
+    "VariantId": "49a0e6b9-83dd-4d1e-9972-880a4d5efb97"
+  }
+]
