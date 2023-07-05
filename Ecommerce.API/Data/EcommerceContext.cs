@@ -24,6 +24,17 @@ public class EcommerceContext : IdentityDbContext<ApplicationUser>
     public DbSet<VariantOption> VariantOptions { get; set; }
     public DbSet<WishList> WishLists { get; set; }
 
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        base.OnModelCreating(modelBuilder);
 
+        modelBuilder.Entity<ProductItem>()
+            .Property(p => p.Price)
+            .HasColumnType("decimal(18,2)");
+
+        modelBuilder.Entity<OrderItem>()
+            .Property(p => p.Price)
+            .HasColumnType("decimal(18,2)");
+    }
 
 }
