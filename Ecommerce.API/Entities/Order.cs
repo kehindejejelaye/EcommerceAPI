@@ -11,7 +11,7 @@ public class Order : BaseEntity
     public Address Address { get; set; }
 
     [ForeignKey("OrderStatusId")]
-    public string OrderStatusId { get; set; }
+    public string OrderStatusId { get; set; } 
     public OrderStatus OrderStatus { get; set; }
 
     [ForeignKey("UserId")]
