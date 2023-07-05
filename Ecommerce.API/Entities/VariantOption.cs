@@ -9,4 +9,5 @@ public class VariantOption : BaseEntity
     [ForeignKey("VariantId")]
     public Variant Variant { get; set; }
     public string VariantId { get; set; }
+    public ICollection<ProductItemVariantOption> ProductItems { get; set; }
 }

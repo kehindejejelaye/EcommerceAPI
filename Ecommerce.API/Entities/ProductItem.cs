@@ -12,4 +12,5 @@ public class ProductItem : BaseEntity
     [ForeignKey("ProductId")]
     public Product Product { get; set; }
     public string ProductId { get; set; }
+    public ICollection<ProductItemVariantOption> VariantOptions { get; set; }
 }
