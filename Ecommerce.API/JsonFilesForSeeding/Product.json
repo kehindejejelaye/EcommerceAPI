@@ -1,137 +1,160 @@
 [
   {
+    "Id": "3fbc1b2f-41b5-49ca-9d01-5ef206b1e42c",
     "Name": "T-shirts",
     "Description": "Comfortable and versatile, T-shirts are wardrobe essentials. Perfect for casual occasions and can be easily paired with jeans or shorts.",
     "ImageUrl": "https://example.com/images/t-shirts.jpg",
     "CategoryId": "e493d92c-8dc7-4a3b-8ad1-19df8b9b478a"
   },
   {
+    "Id": "9fda1f39-18e0-4e9f-bddc-28f22cc5e331",
     "Name": "Shirts",
     "Description": "Classic and stylish, shirts are suitable for both formal and casual looks. They can be worn with trousers or jeans for various occasions.",
     "ImageUrl": "https://example.com/images/shirts.jpg",
     "CategoryId": "e493d92c-8dc7-4a3b-8ad1-19df8b9b478a"
   },
   {
+    "Id": "99a41dbd-77ed-4a3c-8c8b-62be328a7982",
     "Name": "Polo Shirts",
     "Description": "Polo shirts offer a smart-casual appearance. They are comfortable and ideal for a sporty yet sophisticated look.",
     "ImageUrl": "https://example.com/images/polo-shirts.jpg",
     "CategoryId": "e493d92c-8dc7-4a3b-8ad1-19df8b9b478a"
   },
   {
+    "Id": "f02572a6-df2f-43f0-a092-6a4e207d0c17",
     "Name": "Hoodies",
     "Description": "Hoodies are perfect for a relaxed and cozy style. Great for colder weather or casual outings.",
     "ImageUrl": "https://example.com/images/hoodies.jpg",
     "CategoryId": "e493d92c-8dc7-4a3b-8ad1-19df8b9b478a"
   },
   {
+    "Id": "a2f5728e-7323-42ac-9e09-25dd7dd37cc2",
     "Name": "Sweaters",
     "Description": "Sweaters provide warmth and style during chilly days. They come in various designs and materials to suit different preferences.",
     "ImageUrl": "https://example.com/images/sweaters.jpg",
     "CategoryId": "e493d92c-8dc7-4a3b-8ad1-19df8b9b478a"
   },
   {
+    "Id": "06a8feda-d9f0-4601-9f97-45a564c1a4b0",
     "Name": "Jackets",
     "Description": "Jackets are versatile outerwear options. They offer protection from the elements while adding a fashionable touch to your outfit.",
     "ImageUrl": "https://example.com/images/jackets.jpg",
     "CategoryId": "e493d92c-8dc7-4a3b-8ad1-19df8b9b478a"
   },
   {
+    "Id": "72f2a1a2-c0a9-4e6f-9f56-45f8e83c0367",
     "Name": "Jeans",
     "Description": "Jeans are timeless and versatile bottoms that can be dressed up or down. They are a staple in any wardrobe.",
     "ImageUrl": "https://example.com/images/jeans.jpg",
     "CategoryId": "c7eb51a3-98e7-44e3-b7a0-4b352ee0cde7"
   },
   {
+    "Id": "db87d6a9-ef88-4717-94f9-af7e3eb9908e",
     "Name": "Pants",
     "Description": "Pants are essential for a smart and formal look. They come in different styles, such as dress pants and chinos, suitable for various occasions.",
     "ImageUrl": "https://example.com/images/pants.jpg",
     "CategoryId": "c7eb51a3-98e7-44e3-b7a0-4b352ee0cde7"
   },
   {
+    "Id": "eab75cd2-6b7a-48a5-b7fd-63c871f17c8d",
     "Name": "Shorts",
     "Description": "Shorts are perfect for warmer days or casual outings. They offer comfort and freedom of movement.",
     "ImageUrl": "https://example.com/images/shorts.jpg",
     "CategoryId": "c7eb51a3-98e7-44e3-b7a0-4b352ee0cde7"
   },
   {
+    "Id": "4a65f1dc-d2ab-4e55-b5d9-952ee5f63ad8",
     "Name": "Joggers",
     "Description": "Joggers are comfortable and trendy pants designed for casual and athletic wear. They provide a relaxed yet stylish look.",
     "ImageUrl": "https://example.com/images/joggers.jpg",
     "CategoryId": "c7eb51a3-98e7-44e3-b7a0-4b352ee0cde7"
   },
   {
+    "Id": "e9d1d9f2-bcfc-4b2d-845f-65f68b3e94c5",
     "Name": "Chinos",
     "Description": "Chinos are versatile pants suitable for both casual and semi-formal occasions. They offer a polished and refined appearance.",
     "ImageUrl": "https://example.com/images/chinos.jpg",
     "CategoryId": "c7eb51a3-98e7-44e3-b7a0-4b352ee0cde7"
   },
   {
+    "Id": "a13850f7-19de-4f94-a14a-4e431b7f3d3c",
     "Name": "Suits",
     "Description": "Suits are elegant and formal attire for special occasions, business meetings, or professional settings. They exude sophistication and style.",
     "ImageUrl": "https://example.com/images/suits.jpg",
     "CategoryId": "7afaaac7-1d80-4863-80e3-547b92ed84b2"
   },
   {
+    "Id": "a754d635-7e7c-4461-8f3a-4b68b99748c3",
     "Name": "Blazers",
     "Description": "Blazers are versatile jackets that can elevate your outfit. They add a touch of class and can be paired with dress pants or jeans for a stylish look.",
     "ImageUrl": "https://example.com/images/blazers.jpg",
     "CategoryId": "7afaaac7-1d80-4863-80e3-547b92ed84b2"
   },
   {
+    "Id": "0b72b27f-9a92-4b24-827d-44be9c5b4823",
     "Name": "Suit Separates",
     "Description": "Suit separates allow you to mix and match jackets and pants to create a customized suit. They offer flexibility in style and fit.",
     "ImageUrl": "https://example.com/images/suit-separates.jpg",
     "CategoryId": "7afaaac7-1d80-4863-80e3-547b92ed84b2"
   },
   {
+    "Id": "c69b5d3c-bd18-459f-9f6d-7f8f1a42b99c",
     "Name": "Workout Tops",
     "Description": "Workout tops are designed for physical activities and exercise. They provide comfort, moisture-wicking properties, and freedom of movement.",
     "ImageUrl": "https://example.com/images/workout-tops.jpg",
     "CategoryId": "8f230084-1e96-4cc3-9c9c-67cb8b938c88"
   },
   {
+    "Id": "3f10a592-eb06-4a7f-b9ab-c62a0780d6d2",
     "Name": "Workout Pants",
     "Description": "Workout pants are specially designed for athletic activities. They offer flexibility, breathability, and comfort during workouts or sports.",
     "ImageUrl": "https://example.com/images/workout-pants.jpg",
     "CategoryId": "8f230084-1e96-4cc3-9c9c-67cb8b938c88"
   },
   {
+    "Id": "10c464cd-8ec5-4ce5-b6f9-6f22e28982ce",
     "Name": "Athletic Shorts",
     "Description": "Athletic shorts are perfect for sports or casual activities. They provide comfort, freedom of movement, and breathability during physical exertion.",
     "ImageUrl": "https://example.com/images/athletic-shorts.jpg",
     "CategoryId": "8f230084-1e96-4cc3-9c9c-67cb8b938c88"
   },
   {
+    "Id": "2e3d47b4-6f02-46ab-84e5-4bdc2e4de7f8",
     "Name": "Sports Jerseys",
     "Description": "Sports jerseys are apparel worn by athletes and fans to support their favorite sports teams. They showcase team logos and player names or numbers.",
     "ImageUrl": "https://example.com/images/sports-jerseys.jpg",
     "CategoryId": "8f230084-1e96-4cc3-9c9c-67cb8b938c88"
   },
   {
+    "Id": "f7c6525b-423a-41b5-9ae0-248d8b1dfe7d",
     "Name": "Parkas",
     "Description": "Parkas are heavy, insulated coats designed to provide warmth in extremely cold conditions. They often feature a fur-lined hood for added comfort.",
     "ImageUrl": "https://example.com/images/parkas.jpg",
     "CategoryId": "3495733a-55ea-4a40-9123-2ad0d4b56d0a"
   },
   {
+    "Id": "9d4e23d1-58d3-4a96-b844-5d3c10d2e8d7",
     "Name": "Vests",
     "Description": "Vests are sleeveless garments worn over shirts or sweaters. They add a stylish layer to your outfit and provide extra warmth in cooler weather.",
     "ImageUrl": "https://example.com/images/vests.jpg",
     "CategoryId": "3495733a-55ea-4a40-9123-2ad0d4b56d0a"
   },
   {
+    "Id": "6c67f88b-072e-414f-9d4e-d0b9e43847e7",
     "Name": "Boxers",
     "Description": "Boxers are loose-fitting underwear that offer comfort and freedom of movement. They are a popular choice for men's undergarments.",
     "ImageUrl": "https://example.com/images/boxers.jpg",
     "CategoryId": "e99b2a4d-194f-4e5b-ba2e-14b0640c78d1"
   },
   {
+    "Id": "8c186a7f-47e9-4959-af9a-68e2c2278192",
     "Name": "Briefs",
     "Description": "Briefs are snug-fitting underwear that provides support and a streamlined fit. They offer comfort and are suitable for various activities.",
     "ImageUrl": "https://example.com/images/briefs.jpg",
     "CategoryId": "e99b2a4d-194f-4e5b-ba2e-14b0640c78d1"
   },
   {
+    "Id": "b7580cb9-3b95-4c6a-8928-8e0dbf09d8d2",
     "Name": "Socks",
     "Description": "Socks are essential foot coverings that provide comfort and help absorb moisture. They come in various lengths and styles for different purposes.",
     "ImageUrl": "https://example.com/images/socks.jpg",
@@ -152,12 +175,14 @@
     "CategoryId": "e99b2a4d-194f-4e5b-ba2e-14b0640c78d1"
   },
   {
+    "Id": "d480d5f7-3036-4bfa-bf6b-12bb53b9826c",
     "Name": "Swim Trunks",
     "Description": "Swim trunks are swimwear for men, suitable for beach or pool activities. They are designed to be quick-drying and comfortable in the water.",
     "ImageUrl": "https://example.com/images/swim-trunks.jpg",
     "CategoryId": "ac44b0a6-44e9-417b-8c55-08f4c5b73f6b"
   },
   {
+    "Id": "8e974a45-8002-4cbb-8772-90d3d5246e0b",
     "Name": "Boardshorts",
     "Description": "Boardshorts are longer swim trunks often worn for water sports like surfing or paddleboarding. They provide freedom of movement and durability.",
     "ImageUrl": "https://example.com/images/boardshorts.jpg",
