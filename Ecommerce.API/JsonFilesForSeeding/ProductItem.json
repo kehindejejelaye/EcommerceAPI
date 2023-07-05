@@ -1,0 +1,65 @@
+[
+  {
+    "Id": "b75d4e5d-0f80-4e3c-9562-9f4dcb2433c1",
+    "SKU": "TS-001",
+    "QuantityInStock": 10,
+    "ImageUrl": "https://example.com/images/t-shirt-red-stripe.jpg",
+    "Description": "Red Striped T-Shirt",
+    "Price": 19.99,
+    "ProductId": "3fbc1b2f-41b5-49ca-9d01-5ef206b1e42c"
+  },
+  {
+    "Id": "79d639d9-028e-4a4d-9d5c-0a6116d982b0",
+    "SKU": "TS-002",
+    "QuantityInStock": 8,
+    "ImageUrl": "https://example.com/images/t-shirt-blue-checkered.jpg",
+    "Description": "Blue Checkered T-Shirt",
+    "Price": 24.99,
+    "ProductId": "3fbc1b2f-41b5-49ca-9d01-5ef206b1e42c"
+  },
+  {
+    "Id": "f27e7c0a-efeb-477d-ba1f-d743eef99252",
+    "SKU": "TS-003",
+    "QuantityInStock": 15,
+    "ImageUrl": "https://example.com/images/t-shirt-green-polka.jpg",
+    "Description": "Green Polka Dot T-Shirt",
+    "Price": 18.99,
+    "ProductId": "3fbc1b2f-41b5-49ca-9d01-5ef206b1e42c"
+  },
+  {
+    "Id": "c8c15f0b-5864-45fb-9db0-8dbfd02f5dc6",
+    "SKU": "TS-004",
+    "QuantityInStock": 12,
+    "ImageUrl": "https://example.com/images/t-shirt-yellow-stripe.jpg",
+    "Description": "Blue Striped T-Shirt",
+    "Price": 21.99,
+    "ProductId": "3fbc1b2f-41b5-49ca-9d01-5ef206b1e42c"
+  },
+  {
+    "Id": "6a8406a5-5d76-491b-a077-9e83a8d55a3d",
+    "SKU": "TS-005",
+    "QuantityInStock": 5,
+    "ImageUrl": "https://example.com/images/t-shirt-black-graphic.jpg",
+    "Description": "Black Graphic T-Shirt",
+    "Price": 17.99,
+    "ProductId": "3fbc1b2f-41b5-49ca-9d01-5ef206b1e42c"
+  },
+  {
+    "Id": "e502ad53-273a-4ef2-92a5-486ef253dc54",
+    "SKU": "TS-006",
+    "QuantityInStock": 20,
+    "ImageUrl": "https://example.com/images/t-shirt-purple-floral.jpg",
+    "Description": "Green Floral T-Shirt",
+    "Price": 23.99,
+    "ProductId": "3fbc1b2f-41b5-49ca-9d01-5ef206b1e42c"
+  },
+  {
+    "Id": "b75d4e5d-0f80-4e3c-9562-9f4dcb2433c1",
+    "SKU": "TS-007",
+    "QuantityInStock": 10,
+    "ImageUrl": "https://example.com/images/t-shirt-red-stripe.jpg",
+    "Description": "Red Striped T-Shirt",
+    "Price": 19.99,
+    "ProductId": "3fbc1b2f-41b5-49ca-9d01-5ef206b1e42c"
+  }
+]
