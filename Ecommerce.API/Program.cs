@@ -1,4 +1,6 @@
 using Ecommerce.API.Data;
+using Ecommerce.API.Entities;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,6 +11,17 @@ builder.Services.AddDbContext<EcommerceContext>(options =>
 {
     options.UseSqlite(@"Data Source=Ecommerce.db");
 });
+
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
+{
+    options.User.RequireUniqueEmail = true;
+    options.Password.RequireDigit = true;
+    options.Password.RequireUppercase = true;
+    options.Password.RequireLowercase = true;
+    options.Password.RequiredLength = 8;
+}).AddEntityFrameworkStores<EcommerceContext>()
+  .AddDefaultTokenProviders(); 
+
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
