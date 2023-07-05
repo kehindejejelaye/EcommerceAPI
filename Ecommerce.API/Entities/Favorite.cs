@@ -1,4 +1,4 @@
-﻿namespace Ecommerce.API.Entities.EntityConfiguration;
+﻿namespace Ecommerce.API.Entities;
 
 public class Favorite : BaseForWishListAndFavorite
 {

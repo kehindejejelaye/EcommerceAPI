@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Ecommerce.API.Entities.EntityConfiguration;
+namespace Ecommerce.API.Entities;
 
 public class BaseForWishListAndFavorite : BaseEntity
 {
