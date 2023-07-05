@@ -2,7 +2,7 @@
 
 namespace Ecommerce.API.Entities;
 
-public class ProductItemVariantOption : BaseEntity
+public class ProductItemVariantOption
 {
     public string ProductItemId { get; set; }
     public ProductItem ProductItem { get; set; }

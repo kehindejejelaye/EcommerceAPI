@@ -10,6 +10,11 @@
 *.userosscache
 *.sln.docstates
 
+# My database files
+Ecommerce.db-wal
+Ecommerce.db-shm
+Ecommerce.db
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
