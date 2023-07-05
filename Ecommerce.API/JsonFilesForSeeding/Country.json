@@ -1,977 +1,1206 @@
 [
   {
+    "Id": "c6dd98f4-9b48-4a36-ba06-8b6ef72c7bb2",
     "Name": "Afghanistan",
     "CountryCode": "AF"
   },
   {
+    "Id": "f57874c5-34c4-41b4-b5f7-2d6992af8baf",
     "Name": "land Islands",
     "CountryCode": "AX"
   },
   {
+    "Id": "a9917c37-7e7c-4b72-877a-6232b82b3f9b",
     "Name": "Albania",
     "CountryCode": "AL"
   },
   {
+    "Id": "8b66e64c-6f6b-4137-85b4-c01a5e6a1b19",
     "Name": "Algeria",
     "CountryCode": "DZ"
   },
   {
+    "Id": "6dfbc5b3-77e7-4aa5-a845-20f7bbbc98a9",
     "Name": "American Samoa",
     "CountryCode": "AS"
   },
   {
+    "Id": "f7e4e255-dfb0-48fd-aa4e-14560b05c22a",
     "Name": "AndorrA",
     "CountryCode": "AD"
   },
   {
+    "Id": "6acfb879-7b7d-45c7-aad7-21d739fc63a6",
     "Name": "Angola",
     "CountryCode": "AO"
   },
   {
+    "Id": "ae07e536-0e3a-4dd2-82be-998a649a9fd2",
     "Name": "Anguilla",
     "CountryCode": "AI"
   },
   {
+    "Id": "e24df7e5-2aef-4bb0-8a78-d93f0a070e9c",
     "Name": "Antarctica",
     "CountryCode": "AQ"
   },
   {
+    "Id": "6b04e91b-1c0e-4316-9890-4775b9f8e6ae",
     "Name": "Antigua and Barbuda",
     "CountryCode": "AG"
   },
   {
+    "Id": "1943db77-9d6a-4d59-859f-6d4c0558824d",
     "Name": "Argentina",
     "CountryCode": "AR"
   },
   {
+    "Id": "5d4d3451-2b80-4eac-a6dd-dbf09f2b61e0",
     "Name": "Armenia",
     "CountryCode": "AM"
   },
   {
+    "Id": "3cc81abf-4af3-49b5-8f4d-20273f9ac57c",
     "Name": "Aruba",
     "CountryCode": "AW"
   },
   {
+    "Id": "b8d145ac-2a6a-4d32-829a-9b8b5e8b020d",
     "Name": "Australia",
     "CountryCode": "AU"
   },
   {
+    "Id": "9eb011c4-49ae-491c-9f5d-ef01e8a38d8a",
     "Name": "Austria",
     "CountryCode": "AT"
   },
   {
+    "Id": "c9739c42-91f2-4f8e-a15d-2b72f058926d",
     "Name": "Azerbaijan",
     "CountryCode": "AZ"
   },
   {
+    "Id": "ba3a7b75-759d-4c56-af84-19617fcdf6de",
     "Name": "Bahamas",
     "CountryCode": "BS"
   },
   {
+    "Id": "fa262a61-cce3-4c34-a400-58f5a3352069",
     "Name": "Bahrain",
     "CountryCode": "BH"
   },
   {
+    "Id": "c5ac3dd9-3e92-40ae-84a5-b829f972db15",
     "Name": "Bangladesh",
     "CountryCode": "BD"
   },
   {
+    "Id": "56d1cb3b-4980-4f32-9f82-28b96be20dd9",
     "Name": "Barbados",
     "CountryCode": "BB"
   },
   {
+    "Id": "e6dc8d19-0fd9-4b8b-bd32-2dc10e4be776",
     "Name": "Belarus",
     "CountryCode": "BY"
   },
   {
+    "Id": "670b2a70-cce4-4d5b-99db-2ce05c8da8c1",
     "Name": "Belgium",
     "CountryCode": "BE"
   },
   {
+    "Id": "9f42e822-d773-45fc-9504-1de7fb637a39",
     "Name": "Belize",
     "CountryCode": "BZ"
   },
   {
+    "Id": "8b5d96ef-9612-4e2f-9255-748aae7b4f45",
     "Name": "Benin",
     "CountryCode": "BJ"
   },
   {
+    "Id": "2e7eb2ef-16b6-4d50-80fd-bdb1c6a70f5a",
     "Name": "Bermuda",
     "CountryCode": "BM"
   },
   {
+    "Id": "e3f996c1-4c87-4e46-9e64-2447d3a2ebda",
     "Name": "Bhutan",
     "CountryCode": "BT"
   },
   {
+    "Id": "4c84d8e1-69f9-4461-92d0-735b28f46d5d",
     "Name": "Bolivia",
     "CountryCode": "BO"
   },
   {
+    "Id": "f6db1861-413b-4d94-9fc5-39b8b84f8826",
     "Name": "Bosnia and Herzegovina",
     "CountryCode": "BA"
   },
   {
+    "Id": "a9eb867f-7e0a-471b-a0f6-78330f706d18",
     "Name": "Botswana",
     "CountryCode": "BW"
   },
   {
+    "Id": "ed00e43f-6f8d-46f9-b7cd-b92ed789ae29",
     "Name": "Bouvet Island",
     "CountryCode": "BV"
   },
   {
+    "Id": "1d9ee69d-95a5-4bda-8c9f-204a883b49a9",
     "Name": "Brazil",
     "CountryCode": "BR"
   },
   {
+    "Id": "6de5e01b-d0b2-4405-9f2c-48db21db68a5",
     "Name": "British Indian Ocean Territory",
     "CountryCode": "IO"
   },
   {
+    "Id": "4c017ab3-107e-4f8b-9a4c-5511b5b7e2e2",
     "Name": "Brunei Darussalam",
     "CountryCode": "BN"
   },
   {
+    "Id": "a647f3c4-1624-46df-90c7-27032d4701db",
     "Name": "Bulgaria",
     "CountryCode": "BG"
   },
   {
+    "Id": "d71d4cb7-3f44-4068-8705-c2f778d04e62",
     "Name": "Burkina Faso",
     "CountryCode": "BF"
   },
   {
+    "Id": "7d9327c0-8e4c-4e5b-b5d5-56cc2dbf7407",
     "Name": "Burundi",
     "CountryCode": "BI"
   },
   {
+    "Id": "b9d998d4-34d4-408a-a69b-4a73a3132e36",
     "Name": "Cambodia",
     "CountryCode": "KH"
   },
   {
+    "Id": "6b2c221a-1167-4be3-89fd-7f4a7a8b405d",
     "Name": "Cameroon",
     "CountryCode": "CM"
   },
   {
+    "Id": "a90b6d7f-84a7-4f27-a6a3-c2537dc30967",
     "Name": "Canada",
     "CountryCode": "CA"
   },
   {
+    "Id": "8c5434d4-7be0-40c7-ba82-430a56c1dfe4",
     "Name": "Cape Verde",
     "CountryCode": "CV"
   },
   {
+    "Id": "2d40e149-56df-4563-b742-067f07b2777a",
     "Name": "Cayman Islands",
     "CountryCode": "KY"
   },
   {
+    "Id": "493d7a7b-efb1-475e-853b-8e920756eb9e",
     "Name": "Central African Republic",
     "CountryCode": "CF"
   },
   {
+    "Id": "1a4e9b38-73db-4f2f-9757-37c5e96e1db6",
     "Name": "Chad",
     "CountryCode": "TD"
   },
   {
+    "Id": "e4a29a84-9b0d-452a-99da-bb6e9b00b31f",
     "Name": "Chile",
     "CountryCode": "CL"
   },
   {
+    "Id": "7a85f0c9-1c19-4b9f-a31f-59a100a99767",
     "Name": "China",
     "CountryCode": "CN"
   },
   {
+    "Id": "fb43903a-ff1a-4821-99d3-1fbdcf56e24f",
     "Name": "Christmas Island",
     "CountryCode": "CX"
   },
   {
+    "Id": "0d781cc3-d4a2-4f68-b76f-94a3e8d88aa2",
     "Name": "Cocos (Keeling) Islands",
     "CountryCode": "CC"
   },
   {
+    "Id": "20d51bd7-d7a5-4036-8228-3e74df67828c",
     "Name": "Colombia",
     "CountryCode": "CO"
   },
   {
+    "Id": "344d2ab3-b2ac-49ac-9593-50dcb86e85bc",
     "Name": "Comoros",
     "CountryCode": "KM"
   },
   {
+    "Id": "15c2388d-2d14-4724-9a2b-1d4014184579",
     "Name": "Congo",
     "CountryCode": "CG"
   },
   {
+    "Id": "f102ea47-9939-4e6b-af94-d92c38cb0ef7",
     "Name": "Congo, The Democratic Republic of the",
     "CountryCode": "CD"
   },
   {
+    "Id": "3c2ff538-dc32-4b9f-81f0-8a2fc7592f18",
     "Name": "Cook Islands",
     "CountryCode": "CK"
   },
   {
+    "Id": "58f56420-4380-4e74-9d58-7c346f7a220f",
     "Name": "Costa Rica",
     "CountryCode": "CR"
   },
   {
-    "Name": "Cote D\"Ivoire",
+    "Id": "9f2381d0-aae6-457b-92b4-8f18fe5b8626",
+    "Name": "Cote D'Ivoire",
     "CountryCode": "CI"
   },
   {
+    "Id": "c7e11ce1-85fb-4b6b-9e7e-8e49d55c0fe5",
     "Name": "Croatia",
     "CountryCode": "HR"
   },
   {
+    "Id": "f6826f5d-87ab-4d0a-8e8f-416d8b5fca12",
     "Name": "Cuba",
     "CountryCode": "CU"
   },
   {
+    "Id": "aa90c92d-86e1-45d9-8a44-3da102da69e1",
     "Name": "Cyprus",
     "CountryCode": "CY"
   },
   {
+    "Id": "fa0a43be-c491-4e1a-a621-dc6287c3622a",
     "Name": "Czech Republic",
     "CountryCode": "CZ"
   },
   {
+    "Id": "cd8bd230-f56e-4f0f-9641-2ed87510fd6c",
     "Name": "Denmark",
     "CountryCode": "DK"
   },
   {
+    "Id": "3f10f018-5cc6-4142-b9ad-72b6b6880e32",
     "Name": "Djibouti",
     "CountryCode": "DJ"
   },
   {
+    "Id": "4a86805f-4855-4e2d-8e84-d38bcf2e7c59",
     "Name": "Dominica",
     "CountryCode": "DM"
   },
   {
+    "Id": "775bf2b7-b705-4a10-88f3-48f65b2b4a61",
     "Name": "Dominican Republic",
     "CountryCode": "DO"
   },
   {
+    "Id": "c0fe2df4-18fd-43b9-8f78-2d866655d2e3",
     "Name": "Ecuador",
     "CountryCode": "EC"
   },
   {
+    "Id": "0d0ea144-5ef4-45d0-8825-9c1aa2ad1029",
     "Name": "Egypt",
     "CountryCode": "EG"
   },
   {
+    "Id": "b1049c2c-b345-4cf9-b36d-d46d3a35a232",
     "Name": "El Salvador",
     "CountryCode": "SV"
   },
   {
+    "Id": "4de5d7df-9618-4a75-bef9-cb58dd04a32d",
     "Name": "Equatorial Guinea",
     "CountryCode": "GQ"
   },
   {
+    "Id": "c5303e5f-1b08-4f91-9f7f-cf77c82d3196",
     "Name": "Eritrea",
     "CountryCode": "ER"
   },
   {
+    "Id": "0ad79008-c173-4b84-97bb-4e5c7464cb0a",
     "Name": "Estonia",
     "CountryCode": "EE"
   },
   {
+    "Id": "a9c8a967-0de0-4167-90b8-7cd6f60e6e08",
     "Name": "Ethiopia",
     "CountryCode": "ET"
   },
   {
+    "Id": "658c2019-af4f-4e1a-9a1d-24f24a265b94",
     "Name": "Falkland Islands (Malvinas)",
     "CountryCode": "FK"
   },
   {
+    "Id": "3d9cfa0b-b8f1-47b1-9c7f-b6b307d9e43a",
     "Name": "Faroe Islands",
     "CountryCode": "FO"
   },
   {
+    "Id": "f1b166f2-13ad-4dc4-88d5-cba17e68a188",
     "Name": "Fiji",
     "CountryCode": "FJ"
   },
   {
+    "Id": "4c1e86fd-4f24-4705-b180-d59e6fc9112a",
     "Name": "Finland",
     "CountryCode": "FI"
   },
   {
+    "Id": "05bbd672-58b7-4e5d-aaef-8c6f7db0f8fe",
     "Name": "France",
     "CountryCode": "FR"
   },
   {
+    "Id": "fe59b53b-fdfe-402e-a984-7a1e9c1e7312",
     "Name": "French Guiana",
     "CountryCode": "GF"
   },
   {
+    "Id": "0641d490-58e2-448f-af23-f794e368f0c6",
     "Name": "French Polynesia",
     "CountryCode": "PF"
   },
   {
+    "Id": "2c8e70da-1b69-4e9d-9ccf-c79e8daa1d72",
     "Name": "French Southern Territories",
     "CountryCode": "TF"
   },
   {
+    "Id": "aa7ae98a-c5fe-4df0-a7a7-fb0ef6b6c551",
     "Name": "Gabon",
     "CountryCode": "GA"
   },
   {
+    "Id": "b448ae80-5877-4d5c-8219-308bd7686105",
     "Name": "Gambia",
     "CountryCode": "GM"
   },
   {
+    "Id": "5aa32533-f779-4fc4-a924-1af6f85c6805",
     "Name": "Georgia",
     "CountryCode": "GE"
   },
   {
+    "Id": "5bd7f1db-63a1-4b84-9b07-d1a624e6153a",
     "Name": "Germany",
     "CountryCode": "DE"
   },
   {
+    "Id": "d4a7f9a5-1b33-4f87-bf2e-654536c7b116",
     "Name": "Ghana",
     "CountryCode": "GH"
   },
   {
+    "Id": "34b4977b-bb16-4f39-bef0-02d3c108f160",
     "Name": "Gibraltar",
     "CountryCode": "GI"
   },
   {
+    "Id": "c0736cf9-fad9-49dd-89ff-d3a160b835df",
     "Name": "Greece",
     "CountryCode": "GR"
   },
   {
+    "Id": "3a6e733e-d98d-474e-a6d3-49c9326f48e7",
     "Name": "Greenland",
     "CountryCode": "GL"
   },
   {
+    "Id": "0d5d6a3f-3f23-4404-b5db-c06730579f0c",
     "Name": "Grenada",
     "CountryCode": "GD"
   },
   {
+    "Id": "6bd119b5-908f-44d3-bca7-749109b8c369",
     "Name": "Guadeloupe",
     "CountryCode": "GP"
   },
   {
+    "Id": "f3e7978c-6cc0-4c2d-89f3-22f15613f2dd",
     "Name": "Guam",
     "CountryCode": "GU"
   },
   {
+    "Id": "41b2f0d4-1d1d-4968-bb0d-2d5122a60c5b",
     "Name": "Guatemala",
     "CountryCode": "GT"
   },
   {
+    "Id": "d9a7055b-d3db-4a3d-9dc7-0d5d9427f992",
     "Name": "Guernsey",
     "CountryCode": "GG"
   },
   {
+    "Id": "ae5d2d70-896d-4ae5-8d49-641a3d16b7e7",
     "Name": "Guinea",
     "CountryCode": "GN"
   },
   {
+    "Id": "82b9f823-4846-4ae4-909f-c84a12e8a531",
     "Name": "Guinea-Bissau",
     "CountryCode": "GW"
   },
   {
+    "Id": "80a3c135-6470-4722-88ae-970e3fb14d7c",
     "Name": "Guyana",
     "CountryCode": "GY"
   },
   {
+    "Id": "176090c7-8a06-4096-9033-601a5e8605be",
     "Name": "Haiti",
     "CountryCode": "HT"
   },
   {
+    "Id": "c60d3082-4d71-430a-9455-b43ad2fcedeb",
     "Name": "Heard Island and Mcdonald Islands",
     "CountryCode": "HM"
   },
   {
+    "Id": "5306e47c-15a9-4251-a542-8ee21b3b9a22",
     "Name": "Holy See (Vatican City State)",
     "CountryCode": "VA"
   },
   {
+    "Id": "f28e6418-9eac-439f-8e2f-0c8ed33eac7d",
     "Name": "Honduras",
     "CountryCode": "HN"
   },
   {
+    "Id": "2a5a14b4-6c9a-4e7b-a77d-d0186e646a3e",
     "Name": "Hong Kong",
     "CountryCode": "HK"
   },
   {
+    "Id": "06a5e03f-d59b-4251-8db4-6183a73a8ac1",
     "Name": "Hungary",
     "CountryCode": "HU"
   },
   {
+    "Id": "2fd5be1a-1c76-4d13-9d42-4d668f055a33",
     "Name": "Iceland",
     "CountryCode": "IS"
   },
   {
+    "Id": "a89ed4d0-3436-4589-892e-689672f8a898",
     "Name": "India",
     "CountryCode": "IN"
   },
   {
+    "Id": "99fcfa20-31be-45f0-b994-d28264a8e0f2",
     "Name": "Indonesia",
     "CountryCode": "ID"
   },
   {
-    "Name": "Iran, Islamic Republic Of",
+    "Id": "a8c2dcf9-d591-4a61-b1c4-243aa1e36f1b",
+    "Name": "Iran, Islamic Republic of",
     "CountryCode": "IR"
   },
   {
+    "Id": "41cc4a95-964c-4193-a689-dc9303c85410",
     "Name": "Iraq",
     "CountryCode": "IQ"
   },
   {
+    "Id": "0a01ebe0-cf7e-4cda-9e19-2ef8540c3e63",
     "Name": "Ireland",
     "CountryCode": "IE"
   },
   {
+    "Id": "e8e49b18-6d09-44d9-9b4c-68c5e8255b6d",
     "Name": "Isle of Man",
     "CountryCode": "IM"
   },
   {
+    "Id": "bcf38d56-d5d1-4c1a-8965-b68470f8fdec",
     "Name": "Israel",
     "CountryCode": "IL"
   },
   {
+    "Id": "3e33c5d7-65f6-4f41-8051-3d0a3e3c5a70",
     "Name": "Italy",
     "CountryCode": "IT"
   },
   {
+    "Id": "60d6e46c-d700-4e9d-8992-87484dbad79a",
     "Name": "Jamaica",
     "CountryCode": "JM"
   },
   {
+    "Id": "7fca14e2-014e-4ce9-8557-21a663165525",
     "Name": "Japan",
     "CountryCode": "JP"
   },
   {
+    "Id": "50d70b6c-3321-47b9-8b7d-0af64ad2b545",
     "Name": "Jersey",
     "CountryCode": "JE"
   },
   {
+    "Id": "3344b3fd-7d2c-4419-b951-7816cda39a9f",
     "Name": "Jordan",
     "CountryCode": "JO"
   },
   {
+    "Id": "5dfeeb64-c32f-4be3-8bda-d60ed624f7c4",
     "Name": "Kazakhstan",
     "CountryCode": "KZ"
   },
   {
+    "Id": "89d68d67-3ad5-4fe3-94a5-f9be6e2a70a4",
     "Name": "Kenya",
     "CountryCode": "KE"
   },
   {
+    "Id": "61fb8031-3b30-454a-9ee3-57d39be855c2",
     "Name": "Kiribati",
     "CountryCode": "KI"
   },
   {
-    "Name": "Korea, Democratic People\"S Republic of",
+    "Id": "d5e6e7f6-4e08-4d7d-8b70-99d715ba1b3f",
+    "Name": "Korea, Democratic People's Republic of",
     "CountryCode": "KP"
   },
   {
+    "Id": "68f3311d-25db-4788-8b8d-d7f1e8d3620b",
     "Name": "Korea, Republic of",
     "CountryCode": "KR"
   },
   {
+    "Id": "e2d20711-8fb2-42f6-8695-4cbf79b01e82",
     "Name": "Kuwait",
     "CountryCode": "KW"
   },
   {
+    "Id": "2b6beab5-0a22-42a2-87dd-7046f1bfa32f",
     "Name": "Kyrgyzstan",
     "CountryCode": "KG"
   },
   {
-    "Name": "Lao People\"S Democratic Republic",
+    "Id": "4e5c0af3-8339-4c47-8e6b-c411db8dc0cd",
+    "Name": "Lao People's Democratic Republic",
     "CountryCode": "LA"
   },
   {
+    "Id": "3ceecbcd-df2e-47eb-8c88-3a3a5cdeee79",
     "Name": "Latvia",
     "CountryCode": "LV"
   },
   {
+    "Id": "a6b3c9dd-95d4-4a32-8c2a-9b1f6d32d2e4",
     "Name": "Lebanon",
     "CountryCode": "LB"
   },
   {
+    "Id": "f7ac65a9-1e56-431a-9b2c-24e1e05e431a",
     "Name": "Lesotho",
     "CountryCode": "LS"
   },
   {
+    "Id": "f9d70b82-df41-4c3b-95af-0da6c3d65f2c",
     "Name": "Liberia",
     "CountryCode": "LR"
   },
   {
+    "Id": "8a68267a-5e79-42ab-9bca-2c84a041ea94",
     "Name": "Libyan Arab Jamahiriya",
     "CountryCode": "LY"
   },
   {
+    "Id": "cd0e6660-1867-4b4f-bdaa-dc35f3a9a7b1",
     "Name": "Liechtenstein",
     "CountryCode": "LI"
   },
   {
+    "Id": "f2f38b19-5775-4c02-90b2-9d2ef2145b62",
     "Name": "Lithuania",
     "CountryCode": "LT"
   },
   {
+    "Id": "4999fcbb-4a9b-4df0-8f59-bb7eeb7c9e15",
     "Name": "Luxembourg",
     "CountryCode": "LU"
   },
   {
+    "Id": "5d8f98f0-aa2c-43c6-8c1a-4b23f8c24af2",
     "Name": "Macao",
     "CountryCode": "MO"
   },
   {
-    "Name": "Macedonia, The Former Yugoslav Republic of",
+    "Id": "657745ab-7db7-4a47-9256-30e05df4c83b",
+    "Name": "Macedonia, the Former Yugoslav Republic of",
     "CountryCode": "MK"
   },
   {
+    "Id": "d0e9e4c3-9f11-4b46-a0e9-ae5127e88f2c",
     "Name": "Madagascar",
     "CountryCode": "MG"
   },
   {
+    "Id": "6b7dc104-df69-47f1-91db-4f024a51abdb",
     "Name": "Malawi",
     "CountryCode": "MW"
   },
   {
+    "Id": "758737b2-0cb7-4c44-b848-d94069db3fd7",
     "Name": "Malaysia",
     "CountryCode": "MY"
   },
   {
+    "Id": "b7400e18-908b-4e7d-8970-d42d4a4fae2d",
     "Name": "Maldives",
     "CountryCode": "MV"
   },
   {
+    "Id": "c40f2d9a-2fd3-4f5f-95db-8718c3664879",
     "Name": "Mali",
     "CountryCode": "ML"
   },
   {
+    "Id": "bf76d48b-12d1-4e75-a944-39425847b01b",
     "Name": "Malta",
     "CountryCode": "MT"
   },
   {
+    "Id": "ce2b66d1-74d2-45a7-9c4d-481ad18e5d54",
     "Name": "Marshall Islands",
     "CountryCode": "MH"
   },
   {
+    "Id": "68b0b167-b3eb-4e06-b1b9-86e4e26b85bc",
     "Name": "Martinique",
     "CountryCode": "MQ"
   },
   {
+    "Id": "9eae5b16-d3ab-4cc2-8ea5-1b54813fe7ce",
     "Name": "Mauritania",
     "CountryCode": "MR"
   },
   {
+    "Id": "a437a64a-71d1-4a4c-875d-5258f3a6d37e",
     "Name": "Mauritius",
     "CountryCode": "MU"
   },
   {
+    "Id": "2c2de5ed-60ae-48a4-b9d6-9e69c4a4ad1a",
     "Name": "Mayotte",
     "CountryCode": "YT"
   },
   {
+    "Id": "8c0f36c5-60be-4d1d-8823-8fb5b665285b",
     "Name": "Mexico",
     "CountryCode": "MX"
   },
   {
+    "Id": "3a6c829f-3d97-4486-8e3c-38f7fcbe47e9",
     "Name": "Micronesia, Federated States of",
     "CountryCode": "FM"
   },
   {
+    "Id": "fca699a2-0135-4177-a9d3-07f82a638b97",
     "Name": "Moldova, Republic of",
     "CountryCode": "MD"
   },
   {
+    "Id": "ba5ddc7d-3b0f-442b-bf5a-45b37e97367d",
     "Name": "Monaco",
     "CountryCode": "MC"
   },
   {
+    "Id": "d3c3f08e-6da4-4822-9104-6b7ef8f4c05e",
     "Name": "Mongolia",
     "CountryCode": "MN"
   },
   {
-    "Name": "Montenegro",
-    "CountryCode": "ME"
-  },
-  {
+    "Id": "5125a068-3fd7-4dd0-8c88-8bebebbe5a74",
     "Name": "Montserrat",
     "CountryCode": "MS"
   },
   {
+    "Id": "788307d1-6f58-4226-9955-f6b3a11a5ed0",
     "Name": "Morocco",
     "CountryCode": "MA"
   },
   {
+    "Id": "7796d2e7-2776-4742-a7c1-887d202b9b27",
     "Name": "Mozambique",
     "CountryCode": "MZ"
   },
   {
+    "Id": "703a78f2-31b2-4e6b-a142-1aae2e0d7be3",
     "Name": "Myanmar",
     "CountryCode": "MM"
   },
   {
+    "Id": "a227fb77-2d4b-49e3-9eaf-3cb25c7d926e",
     "Name": "Namibia",
     "CountryCode": "NA"
   },
   {
+    "Id": "537d6846-8a22-4618-8d77-1dd646c41a93",
     "Name": "Nauru",
     "CountryCode": "NR"
   },
   {
+    "Id": "29038e2c-dbeb-4526-9ec8-b913259c4c34",
     "Name": "Nepal",
     "CountryCode": "NP"
   },
   {
+    "Id": "e8c9e1c1-ef80-47d7-8837-c4a002f3ef19",
     "Name": "Netherlands",
     "CountryCode": "NL"
   },
   {
+    "Id": "fca82202-4db2-44e9-b204-cb821b3ad8d5",
     "Name": "Netherlands Antilles",
     "CountryCode": "AN"
   },
   {
+    "Id": "edf8c1c6-f181-43c3-8194-59346b7b4fe6",
     "Name": "New Caledonia",
     "CountryCode": "NC"
   },
   {
+    "Id": "1ce8a496-732f-47c1-8810-ff9e6b7edc35",
     "Name": "New Zealand",
     "CountryCode": "NZ"
   },
   {
+    "Id": "ceec1eef-7451-42a4-956d-7f65dbf380a1",
     "Name": "Nicaragua",
     "CountryCode": "NI"
   },
   {
+    "Id": "3cfa4da4-88e1-4389-ba5b-dbfadaa32e1c",
     "Name": "Niger",
     "CountryCode": "NE"
   },
   {
+    "Id": "2f62e4b1-4e8b-4b29-af3e-0ffcd72b4f5f",
     "Name": "Nigeria",
     "CountryCode": "NG"
   },
   {
+    "Id": "c8b8ddda-d0a6-4424-adee-24f1ff823f29",
     "Name": "Niue",
     "CountryCode": "NU"
   },
   {
+    "Id": "af5e7f4d-57a6-4794-8da9-04c40b7be9aa",
     "Name": "Norfolk Island",
     "CountryCode": "NF"
   },
   {
+    "Id": "e81bce9f-2922-450e-aa2e-2f2cb9595e3a",
     "Name": "Northern Mariana Islands",
     "CountryCode": "MP"
   },
   {
+    "Id": "81d5d481-5f07-4e9d-8ee8-657d3bea1c82",
     "Name": "Norway",
     "CountryCode": "NO"
   },
   {
+    "Id": "3a7a09f4-10cb-4b35-b3d9-6dfc0e5b90ed",
     "Name": "Oman",
     "CountryCode": "OM"
   },
   {
+    "Id": "4ea781f9-9563-4e45-b718-6c80a49d0a7f",
     "Name": "Pakistan",
     "CountryCode": "PK"
   },
   {
+    "Id": "b55c6492-1985-4a8a-a6da-4dafe2faa189",
     "Name": "Palau",
     "CountryCode": "PW"
   },
   {
+    "Id": "49a90a5b-5e94-4f18-99f1-d4b2cb16a9e1",
     "Name": "Palestinian Territory, Occupied",
     "CountryCode": "PS"
   },
   {
+    "Id": "71522f6c-b344-4f0f-a692-27ee703816e4",
     "Name": "Panama",
     "CountryCode": "PA"
   },
   {
+    "Id": "2abf1607-5f29-41be-a52e-f600e68174be",
     "Name": "Papua New Guinea",
     "CountryCode": "PG"
   },
   {
+    "Id": "c44d325f-49fe-4a06-9231-7e3db7c47a0e",
     "Name": "Paraguay",
     "CountryCode": "PY"
   },
   {
+    "Id": "fe60c028-d1fb-4cc7-a0be-00a62af6527b",
     "Name": "Peru",
     "CountryCode": "PE"
   },
   {
+    "Id": "0f06b1cb-cf46-47a1-9d8e-5bd416802a76",
     "Name": "Philippines",
     "CountryCode": "PH"
   },
   {
+    "Id": "49757c22-4886-45fc-8b56-42d5bc4a37f1",
     "Name": "Pitcairn",
     "CountryCode": "PN"
   },
   {
+    "Id": "f2eb3987-33cb-4eb1-8e5d-20a11cda45be",
     "Name": "Poland",
     "CountryCode": "PL"
   },
   {
+    "Id": "8a2c38f1-fd78-4037-a2e7-2a84bb334e85",
     "Name": "Portugal",
     "CountryCode": "PT"
   },
   {
+    "Id": "aeea4776-75fd-47f7-81fc-d153663f70b7",
     "Name": "Puerto Rico",
     "CountryCode": "PR"
   },
   {
+    "Id": "c9e0d201-46b7-4151-93f7-91a93b2fecd2",
     "Name": "Qatar",
     "CountryCode": "QA"
   },
   {
+    "Id": "6d83719f-fa07-44e2-b2b1-501f21f283af",
     "Name": "Reunion",
     "CountryCode": "RE"
   },
   {
+    "Id": "e1a182d0-0e7a-4716-b0d4-0d3e4b7495b7",
     "Name": "Romania",
     "CountryCode": "RO"
   },
   {
+    "Id": "8c4f7c2d-538b-4a85-9263-788abf6c8eb0",
     "Name": "Russian Federation",
     "CountryCode": "RU"
   },
   {
-    "Name": "RWANDA",
+    "Id": "d0c105fe-3d20-4c18-9eb3-190eb4373e3d",
+    "Name": "Rwanda",
     "CountryCode": "RW"
   },
   {
-    "Name": "Saint Helena",
-    "CountryCode": "SH"
-  },
-  {
+    "Id": "d15a45f5-91e4-47a2-bf8b-695fd2015b5f",
     "Name": "Saint Kitts and Nevis",
     "CountryCode": "KN"
   },
   {
+    "Id": "1eb7d83c-383d-41d6-9a32-433a91f0216c",
     "Name": "Saint Lucia",
     "CountryCode": "LC"
   },
   {
-    "Name": "Saint Pierre and Miquelon",
-    "CountryCode": "PM"
-  },
-  {
+    "Id": "2bd8b8f2-0c00-48fb-8762-b54e179d4f39",
     "Name": "Saint Vincent and the Grenadines",
     "CountryCode": "VC"
   },
   {
+    "Id": "44a0f047-dc85-47f0-b8d9-5f7cda959f5b",
     "Name": "Samoa",
     "CountryCode": "WS"
   },
   {
+    "Id": "746dfaa7-84e0-44df-8df3-b37a30fb7d9b",
     "Name": "San Marino",
     "CountryCode": "SM"
   },
   {
+    "Id": "dcbdf0a0-51b9-4382-8fcb-0c13202cf7f2",
     "Name": "Sao Tome and Principe",
     "CountryCode": "ST"
   },
   {
+    "Id": "7ac2b33d-68ab-4e86-9c7f-45bfa2eaa9c4",
     "Name": "Saudi Arabia",
     "CountryCode": "SA"
   },
   {
+    "Id": "f3f67c3f-9d48-4376-94ae-38ddbe58dc4d",
     "Name": "Senegal",
     "CountryCode": "SN"
   },
   {
+    "Id": "34ff9b07-8367-45e3-9a13-338c5d0514c5",
     "Name": "Serbia",
     "CountryCode": "RS"
   },
   {
+    "Id": "d8c733b5-699e-4f29-a7f4-90689e3a8f88",
     "Name": "Seychelles",
     "CountryCode": "SC"
   },
   {
+    "Id": "f9614a2d-579d-4a14-84f6-2c1f604d5ea4",
     "Name": "Sierra Leone",
     "CountryCode": "SL"
   },
   {
+    "Id": "a12585f5-18d7-4fe1-b84a-f7b2c7d94a20",
     "Name": "Singapore",
     "CountryCode": "SG"
   },
   {
+    "Id": "7d2e9f4a-62f5-4dbd-85e9-75eb60c852a3",
     "Name": "Slovakia",
     "CountryCode": "SK"
   },
   {
+    "Id": "c5a4f33e-99d2-43be-a2b2-7c7e470ffabf",
     "Name": "Slovenia",
     "CountryCode": "SI"
   },
   {
+    "Id": "b15d8524-2e23-431d-8b63-5ad9d30816fb",
     "Name": "Solomon Islands",
     "CountryCode": "SB"
   },
   {
+    "Id": "9f28ab99-ced2-4f81-91a9-19c0d2121953",
     "Name": "Somalia",
     "CountryCode": "SO"
   },
   {
+    "Id": "1c54238e-22b9-47a5-8e32-55b8da4ce049",
     "Name": "South Africa",
     "CountryCode": "ZA"
   },
   {
+    "Id": "1c1d564e-12d7-49a2-9e94-6d71b805235b",
     "Name": "South Georgia and the South Sandwich Islands",
     "CountryCode": "GS"
   },
   {
+    "Id": "0d4324df-7831-45e7-88e9-d6691c2c63af",
     "Name": "Spain",
     "CountryCode": "ES"
   },
   {
+    "Id": "eef14fc1-b118-4505-8a1a-230e7d827450",
     "Name": "Sri Lanka",
     "CountryCode": "LK"
   },
   {
+    "Id": "b4574c8f-3e5b-42e1-a0e5-2ed78db2c6be",
     "Name": "Sudan",
     "CountryCode": "SD"
   },
   {
-    "Name": "SuriName",
+    "Id": "437b1333-9442-40c7-8947-c8aa0f7c9442",
+    "Name": "Suriname",
     "CountryCode": "SR"
   },
   {
+    "Id": "f3dcb7ac-37d7-4c54-bf2b-39cb5ea8d4fc",
     "Name": "Svalbard and Jan Mayen",
     "CountryCode": "SJ"
   },
   {
+    "Id": "fcd10e1c-5c71-4a79-bac0-c7452e22fd7f",
     "Name": "Swaziland",
     "CountryCode": "SZ"
   },
   {
+    "Id": "ad6477e4-5bb0-4e14-bbc3-57a68a70d4e5",
     "Name": "Sweden",
     "CountryCode": "SE"
   },
   {
+    "Id": "63854f62-1c03-4713-8c1c-6177779f207a",
     "Name": "Switzerland",
     "CountryCode": "CH"
   },
   {
+    "Id": "4f942e4a-b3b5-4593-8d88-d9c5eeef3e0d",
     "Name": "Syrian Arab Republic",
     "CountryCode": "SY"
   },
   {
+    "Id": "d2006b82-0345-4b5b-81a0-041fc8d96387",
     "Name": "Taiwan, Province of China",
     "CountryCode": "TW"
   },
   {
+    "Id": "2a0926e9-96de-4d4a-8d70-14a5c2e176cd",
     "Name": "Tajikistan",
     "CountryCode": "TJ"
   },
   {
+    "Id": "647f6f34-0f06-4c13-bcfd-35610e8d6ff5",
     "Name": "Tanzania, United Republic of",
     "CountryCode": "TZ"
   },
   {
+    "Id": "f6a91b4f-5eab-47a0-a4a7-cedd7b6da7e6",
     "Name": "Thailand",
     "CountryCode": "TH"
   },
   {
+    "Id": "c4416343-49fe-4b0b-8c2a-8d4947363dc2",
     "Name": "Timor-Leste",
     "CountryCode": "TL"
   },
   {
+    "Id": "a9b69f0a-d52d-4e0f-8352-40d1de9d7c1e",
     "Name": "Togo",
     "CountryCode": "TG"
   },
   {
+    "Id": "20cfae41-bdc4-43ad-88d5-cd5a5bba84e3",
     "Name": "Tokelau",
     "CountryCode": "TK"
   },
   {
+    "Id": "d269ad2e-f96d-4a0e-9821-b58a99f67347",
     "Name": "Tonga",
     "CountryCode": "TO"
   },
   {
+    "Id": "b4a42cfd-0953-428f-89d0-d9ef48bea7b0",
     "Name": "Trinidad and Tobago",
     "CountryCode": "TT"
   },
   {
+    "Id": "c964ee94-9326-4b54-a9e1-49a113bceaa1",
     "Name": "Tunisia",
     "CountryCode": "TN"
   },
   {
+    "Id": "d6a6b7f6-15e4-4b7f-8e8f-7248398463bc",
     "Name": "Turkey",
     "CountryCode": "TR"
   },
   {
+    "Id": "b1f212cc-3dd3-40e2-8f33-7974f42e0e1f",
     "Name": "Turkmenistan",
     "CountryCode": "TM"
   },
   {
+    "Id": "1ac3d105-0280-491f-b33e-f1b50ae7d9a3",
     "Name": "Turks and Caicos Islands",
     "CountryCode": "TC"
   },
   {
+    "Id": "bcbd9f29-8cfb-4e19-8779-22fb5a14e5a4",
     "Name": "Tuvalu",
     "CountryCode": "TV"
   },
   {
+    "Id": "d9e9fefe-bf48-4350-9572-5b645e4b122e",
     "Name": "Uganda",
     "CountryCode": "UG"
   },
   {
+    "Id": "a95777d1-47ae-4cfc-979a-91ebc3aa927f",
     "Name": "Ukraine",
     "CountryCode": "UA"
   },
   {
+    "Id": "873b2654-7263-4315-9d58-32a12f423722",
     "Name": "United Arab Emirates",
     "CountryCode": "AE"
   },
   {
+    "Id": "b12b43ad-7c4c-4fc9-9503-61c56bebd52b",
     "Name": "United Kingdom",
     "CountryCode": "GB"
   },
   {
+    "Id": "78e94b9c-6ce4-4d9a-ae50-105d36a7d0b3",
     "Name": "United States",
     "CountryCode": "US"
   },
   {
+    "Id": "1c9b7586-7d43-49b1-b2be-c92a8579a612",
     "Name": "United States Minor Outlying Islands",
     "CountryCode": "UM"
   },
   {
+    "Id": "06f02489-b83f-4fd5-9cb8-d886e3beedc1",
     "Name": "Uruguay",
     "CountryCode": "UY"
   },
   {
+    "Id": "48e36e22-613f-4a3b-8955-9da66958e95c",
     "Name": "Uzbekistan",
     "CountryCode": "UZ"
   },
   {
+    "Id": "05e5d9d6-efb6-4c1b-8610-9c4a735e3979",
     "Name": "Vanuatu",
     "CountryCode": "VU"
   },
   {
-    "Name": "Venezuela",
+    "Id": "5a548b08-8c5b-47a8-89c7-5a23c6f32c0f",
+    "Name": "Venezuela, Bolivarian Republic of",
     "CountryCode": "VE"
   },
   {
+    "Id": "5db44be3-5f89-4a2e-a120-d7b27e83b4dd",
     "Name": "Viet Nam",
     "CountryCode": "VN"
   },
   {
+    "Id": "d4b08275-40a9-42e2-89d8-d4e6b437819e",
     "Name": "Virgin Islands, British",
     "CountryCode": "VG"
   },
   {
+    "Id": "d25dbf73-eb4b-40db-9af0-2c0152e7abf6",
     "Name": "Virgin Islands, U.S.",
     "CountryCode": "VI"
   },
   {
+    "Id": "319bb344-d11f-4bcb-83b4-52b6525dcf4a",
     "Name": "Wallis and Futuna",
     "CountryCode": "WF"
   },
   {
+    "Id": "f8e8b45c-3ecf-4613-a9d7-785754c852a5",
     "Name": "Western Sahara",
     "CountryCode": "EH"
   },
   {
+    "Id": "3c93dfb1-2151-4575-982f-ecdd22dd99c8",
     "Name": "Yemen",
     "CountryCode": "YE"
   },
   {
+    "Id": "925eb4dc-8b85-4a18-9e7f-b9f22036f672",
     "Name": "Zambia",
     "CountryCode": "ZM"
   },
   {
+    "Id": "f687a4a6-7a26-48c8-b4a7-8f11ad051ab7",
     "Name": "Zimbabwe",
     "CountryCode": "ZW"
   }
