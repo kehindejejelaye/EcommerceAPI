@@ -1,0 +1,12 @@
+[
+  {
+    "Id": "e7b4133a-948d-4f21-9a6b-2978f9842fa1",
+    "AddressLine": "123 ABC Street",
+    "ZipCode": "100001",
+    "City": "Lagos",
+    "State": "Lagos State",
+    "IsPreferred": true,
+    "CountryId": "2f62e4b1-4e8b-4b29-af3e-0ffcd72b4f5f",
+    "UserId": "c9d76c3b-39b9-4a57-aa8d-c1d430ec87f6"
+  }
+]
