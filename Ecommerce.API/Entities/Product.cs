@@ -11,4 +11,6 @@ public class Product : BaseEntity
     [ForeignKey("CategoryId")]
     public Category Category { get; set; }
     public string CategoryId { get; set; }
+
+    public List<ProductItem> ProductItems { get; set; }
 }
