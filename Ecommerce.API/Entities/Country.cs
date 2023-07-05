@@ -1,6 +1,6 @@
 ﻿namespace Ecommerce.API.Entities;
 
-public class Country
+public class Country : BaseEntity
 {
     public string Name { get; set; }
 }
