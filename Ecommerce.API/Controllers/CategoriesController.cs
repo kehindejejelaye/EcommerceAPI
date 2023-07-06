@@ -44,4 +44,15 @@ public class CategoriesController : ControllerBase
         var _categoryToReturn = _mapper.Map<ReadCategoryDto>(_category);
         return CreatedAtRoute("GetCategory", new { categoryId = _category.Id }, _categoryToReturn);
     }
+
+    [HttpDelete("{categoryId}")]
+    public async Task<ActionResult> DeleteCategory(string categoryId)
+    {
+        var category = await _repoManager.Category.GetCategoryById(categoryId, true);
+        if (category == null) return NotFound();
+
+        _repoManager.Category.DeleteCategory(category);
+        await _repoManager.SaveAsync();
+        return NoContent();
+    }
 }
