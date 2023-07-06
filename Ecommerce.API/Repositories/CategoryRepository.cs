@@ -11,10 +11,10 @@ namespace Ecommerce.API.Repositories
         {
         }
 
-        public Category? GetCategoryById(string categoryId, bool trackChanges)
+        public async Task<Category?> GetCategoryById(string categoryId, bool trackChanges)
         {
-            return FindByCondition(c => c.Id == categoryId, trackChanges)
-                .SingleOrDefault();
+            return await FindByCondition(c => c.Id == categoryId, trackChanges)
+                .SingleOrDefaultAsync();
         }
 
         public async Task<IEnumerable<Category>> GetAllCategories(bool trackChanges)
