@@ -34,4 +34,14 @@ public class CategoriesController : ControllerBase
         var _category = _mapper.Map<ReadCategoryDto>(category);
         return Ok(_category);
     }
+
+    [HttpPost]
+    public async Task<ActionResult> CreateCategory(CreateCategoryDto category)
+    {
+        var _category = _mapper.Map<Category>(category);
+        _repoManager.Category.CreateCategory(_category);
+        await _repoManager.SaveAsync();
+        var _categoryToReturn = _mapper.Map<ReadCategoryDto>(_category);
+        return CreatedAtRoute("GetCategory", new { categoryId = _category.Id }, _categoryToReturn);
+    }
 }
