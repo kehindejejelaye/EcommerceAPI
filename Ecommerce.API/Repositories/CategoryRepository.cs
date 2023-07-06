@@ -23,5 +23,10 @@ namespace Ecommerce.API.Repositories
                 .OrderBy(c => c.Name)
                 .ToListAsync();
         }
+
+        public void CreateCategory(Category category) => Create(category);
+
+        public void DeleteCategory(Category category) => Delete(category);
+        public void UpdateCategory(Category category) => Update(category);
     }
 }
