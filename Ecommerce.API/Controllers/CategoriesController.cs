@@ -55,4 +55,18 @@ public class CategoriesController : ControllerBase
         await _repoManager.SaveAsync();
         return NoContent();
     }
+
+    [HttpPut("{categoryId}")]
+    public async Task<ActionResult> UpdateCategory(string categoryId, [FromBody] UpdateCategoryDto category)
+    {
+        var categoryFromDb = await _repoManager.Category.GetCategoryById(categoryId, true);
+        if (categoryFromDb == null) return NotFound();
+
+        _mapper.Map(category, categoryFromDb);
+        categoryFromDb.UpdatedAt = DateTime.Now;
+
+        _repoManager.Category.UpdateCategory(categoryFromDb);
+        await _repoManager.SaveAsync();
+        return NoContent();
+    }
 }
