@@ -10,10 +10,11 @@ public class RepositoryManager : IRepositoryManager
     private readonly ICategoryRepository _categoryRepository;
     private readonly IProductRepository _productRepository;
 
-    public RepositoryManager(EcommerceContext context, ICategoryRepository categoryRepository)
+    public RepositoryManager(EcommerceContext context, ICategoryRepository categoryRepository, IProductRepository productRepository)
     {
         _context = context;
         _categoryRepository = categoryRepository;
+        _productRepository = productRepository;
     }
 
     public Task SaveAsync() => _context.SaveChangesAsync();
