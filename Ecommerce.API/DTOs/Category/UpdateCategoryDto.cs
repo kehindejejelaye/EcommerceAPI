@@ -2,5 +2,4 @@
 
 public class UpdateCategoryDto : BaseCategoryDto
 {
-    public string Id { get; set; }
 }
