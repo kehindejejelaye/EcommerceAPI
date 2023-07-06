@@ -1,7 +1,9 @@
 using Ecommerce.API.Data;
 using Ecommerce.API.Entities;
+using Ecommerce.API.InitializeDb;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +12,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<EcommerceContext>(options =>
 {
     options.UseSqlite(@"Data Source=Ecommerce.db");
+    options.EnableSensitiveDataLogging();
+
 });
 
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
@@ -31,11 +35,10 @@ builder.Services.AddSwaggerGen();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+DbInitializer.SeedDb(app).Wait();
+
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
 
