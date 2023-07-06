@@ -125,5 +125,8 @@ public class DbInitializer
             var osObjList = JsonConvert.DeserializeObject<List<OrderStatus>>(osPath);
             await dbContext.OrderStatus.AddRangeAsync(osObjList);
         }
+
+        //Saving everything into the database
+        await dbContext.SaveChangesAsync();
     }
 }
