@@ -15,6 +15,8 @@ public class RepositoryManager : IRepositoryManager
         _categoryRepository = categoryRepository;
     }
 
+    public Task SaveAsync() => _context.SaveChangesAsync();
+
     public ICategoryRepository Category { 
         get { return _categoryRepository; } 
     }
