@@ -26,4 +26,12 @@ public class CategoriesController : ControllerBase
         var _categories = _mapper.Map<IEnumerable<ReadCategoryDto>>(categories);
         return Ok(_categories);
     }
+
+    [HttpGet("{categoryId}", Name = "GetCategory")]
+    public async Task<ActionResult> GetCategory(string categoryId)
+    {
+        var category = await _repoManager.Category.GetCategoryById(categoryId, false);
+        var _category = _mapper.Map<ReadCategoryDto>(category);
+        return Ok(_category);
+    }
 }
