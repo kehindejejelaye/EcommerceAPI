@@ -1,6 +1,8 @@
+using Ecommerce.API.Contracts;
 using Ecommerce.API.Data;
 using Ecommerce.API.Entities;
 using Ecommerce.API.InitializeDb;
+using Ecommerce.API.Repositories;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
@@ -17,6 +19,7 @@ builder.Services.AddDbContext<EcommerceContext>(options =>
 });
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
 {
