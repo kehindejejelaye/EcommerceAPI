@@ -8,6 +8,7 @@ public class RepositoryManager : IRepositoryManager
     private readonly EcommerceContext _context;
 
     private readonly ICategoryRepository _categoryRepository;
+    private readonly IProductRepository _productRepository;
 
     public RepositoryManager(EcommerceContext context, ICategoryRepository categoryRepository)
     {
@@ -19,5 +20,10 @@ public class RepositoryManager : IRepositoryManager
 
     public ICategoryRepository Category { 
         get { return _categoryRepository; } 
+    }
+
+    public IProductRepository Product
+    {
+        get { return _productRepository; }
     }
 }
