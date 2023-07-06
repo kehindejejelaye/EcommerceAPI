@@ -10,4 +10,5 @@ public interface ICategoryRepository
 
     void DeleteCategory(Category category);
     void UpdateCategory(Category category);
+    Task<bool> CategoryExistsAsync(string categoryId, bool trackChanges);
 }
