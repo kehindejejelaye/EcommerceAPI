@@ -16,6 +16,8 @@ builder.Services.AddDbContext<EcommerceContext>(options =>
 
 });
 
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
 {
     options.User.RequireUniqueEmail = true;
