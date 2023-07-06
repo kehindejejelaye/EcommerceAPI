@@ -1,4 +1,5 @@
-﻿using Ecommerce.API.Data;
+﻿using Ecommerce.API.Contracts;
+using Ecommerce.API.Data;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 
