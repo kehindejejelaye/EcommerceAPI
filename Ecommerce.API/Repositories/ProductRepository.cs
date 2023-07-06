@@ -13,13 +13,13 @@ public class ProductRepository : BaseRepository<Product>, IProductRepository
 
     public async Task<Product?> GetProductById(string categoryId, string productId, bool trackChanges)
     {
-        return await FindByCondition(p => p.Id == productId && p.CategoryId == categoryId, trackChanges)
+        return await FindByCondition(p => p.Id == productId && p.CategoryId == categoryId, trackChanges).Include(p => p.Category)
             .SingleOrDefaultAsync();
     }
 
-    public async Task<IEnumerable<Product>> GetAllProducts(bool trackChanges)
+    public async Task<IEnumerable<Product>> GetAllProductsInACategory(string categoryId, bool trackChanges)
     {
-        return await FindAll(trackChanges)
+        return await FindByCondition(p =>p.CategoryId == categoryId, trackChanges)
             .OrderBy(p => p.Name)
             .ToListAsync();
     }
