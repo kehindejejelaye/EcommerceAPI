@@ -1,4 +1,5 @@
-﻿using Ecommerce.API.Data;
+﻿using Ecommerce.API.Contracts;
+using Ecommerce.API.Data;
 using Ecommerce.API.Entities;
 using Microsoft.EntityFrameworkCore;
 
