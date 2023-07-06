@@ -15,7 +15,7 @@ public class RepositoryManager : IRepositoryManager
         _categoryRepository = categoryRepository;
     }
 
-    public ICategoryRepository CategoryRepository { 
+    public ICategoryRepository Category { 
         get { return _categoryRepository; } 
     }
 }
