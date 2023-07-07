@@ -55,5 +55,9 @@ public class ShoppingCartItemRepository : BaseRepository<ShoppingCartItem>
         DeleteMultiple(cartItems);
     }
 
-
+    public decimal GetShoppingCartTotal(string userId)
+    {
+        return FindByCondition(c => c.UserId == userId, trackChanges: false)
+            .Sum(c => c.Quantity * c.ProductItem.Price);
+    }
 }
