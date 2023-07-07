@@ -9,4 +9,5 @@ public interface IProductRepository
     Task<IEnumerable<Product>> GetAllProductsInACategory(string categoryId, bool trackChanges);
     Task<Product?> GetProductById(string categoryId, string productId, bool trackChanges);
     void UpdateProduct(Product product);
+    Task<bool> ProductExistsAsync(string categoryId, string productId, bool trackChanges);
 }
