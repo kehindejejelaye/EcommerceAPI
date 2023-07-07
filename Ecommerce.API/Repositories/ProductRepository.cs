@@ -28,4 +28,10 @@ public class ProductRepository : BaseRepository<Product>, IProductRepository
 
     public void DeleteProduct(Product product) => Delete(product);
     public void UpdateProduct(Product product) => Update(product);
+
+    public async Task<bool> ProductExistsAsync(string categoryId, string productId, bool trackChanges)
+    {
+        var product = await FindByCondition(p => p.Id == productId && p.CategoryId == categoryId, trackChanges).FirstOrDefaultAsync();
+        return product != null;
+    }
 }
