@@ -9,7 +9,7 @@ public class VariantProfile : Profile
     public VariantProfile()
     {
         CreateMap<Variant, ReadVariantDto>();
-        CreateMap<CreateVaraintDto, Variant>();
+        CreateMap<CreateVariantDto, Variant>();
         CreateMap<UpdateVariantDto, Variant>();
     }
 }
