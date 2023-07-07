@@ -1,12 +1,8 @@
 ﻿using AutoMapper;
 using Ecommerce.API.Contracts;
-using Ecommerce.API.DTOs.Product;
 using Ecommerce.API.DTOs.ProductItem;
 using Ecommerce.API.Entities;
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 
 namespace Ecommerce.API.Controllers
 {
