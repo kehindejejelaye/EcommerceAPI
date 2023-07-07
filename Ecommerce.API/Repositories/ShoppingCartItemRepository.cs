@@ -39,4 +39,11 @@ public class ShoppingCartItemRepository : BaseRepository<ShoppingCartItem>
             }
         }
     }
+
+    public List<ShoppingCartItem> GetShoppingCartItems(string userId)
+    {
+        return FindByCondition(c => c.UserId == userId, trackChanges: false)
+            .Include(c => c.ProductItem)
+            .ToList();
+    }
 }
