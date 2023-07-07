@@ -25,6 +25,13 @@ namespace Ecommerce.API.Repositories
                 .SingleOrDefaultAsync();
         }
 
+        public async Task<bool> DoesProductItemExist(string productItemId, bool trackChanges)
+        {
+            var product = await FindByCondition(pi => pi.Id == productItemId, trackChanges).SingleOrDefaultAsync();
+
+            return product != null;
+        }
+
         public async Task<IEnumerable<ProductItem>> GetAllProductItemsInProduct(string categoryId, string productId, bool trackChanges)
         {
             return await FindByCondition(pi => pi.ProductId == productId && pi.Product.CategoryId == categoryId, trackChanges)

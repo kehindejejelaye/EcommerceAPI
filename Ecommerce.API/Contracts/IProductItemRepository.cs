@@ -10,5 +10,6 @@ namespace Ecommerce.API.Contracts
         Task<ProductItem?> GetProductItemByIdWithCategoryIdAndProductId(string categoryId, string productId, string productItemId, bool trackChanges);
         Task<ProductItem?> GetProductItemById(string productItemId, bool trackChanges);
         void UpdateProductItem(ProductItem productItem);
+        Task<bool> DoesProductItemExist(string productItemId, bool trackChanges);
     }
 }
