@@ -29,4 +29,10 @@ public class VariantRepository : BaseRepository<Variant>, IVariantRepository
     public void UpdateVariant(Variant variant) => Update(variant);
 
     public void DeleteVariant(Variant variant) => Delete(variant);
+
+    public async Task<bool> VariantExistsAsync(string categoryId, string variantId, bool trackChanges)
+    {
+        var variant = await FindByCondition(p => p.Id == variantId && p.CategoryId == categoryId, trackChanges).FirstOrDefaultAsync();
+        return variant != null;
+    }
 }

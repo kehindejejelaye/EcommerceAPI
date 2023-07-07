@@ -9,5 +9,6 @@ namespace Ecommerce.API.Contracts
         Task<IEnumerable<Variant>> GetAllVariantsInACategory(string categoryId, bool trackChanges);
         Task<Variant?> GetVariantById(string categoryId, string variantId, bool trackChanges);
         void UpdateVariant(Variant variant);
+        Task<bool> VariantExistsAsync(string categoryId, string variantId, bool trackChanges);
     }
 }
