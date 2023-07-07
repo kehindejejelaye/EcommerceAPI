@@ -46,4 +46,14 @@ public class ShoppingCartItemRepository : BaseRepository<ShoppingCartItem>
             .Include(c => c.ProductItem)
             .ToList();
     }
+
+    public void ClearShoppingCart(string userId)
+    {
+        var cartItems = FindByCondition(c => c.UserId == userId, trackChanges: false)
+            .ToList();
+
+        DeleteMultiple(cartItems);
+    }
+
+
 }
