@@ -8,4 +8,5 @@ public interface IRepositoryManager
     public IVariantRepository Variant { get; }
     public IProductItemRepository ProductItem { get; }
     public IVariantOptionRepository VariantOption { get; }
+    public IShoppingCartItemRepository ShoppingCartItem { get; }
 }
