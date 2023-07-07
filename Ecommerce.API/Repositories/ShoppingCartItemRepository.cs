@@ -48,6 +48,11 @@ public class ShoppingCartItemRepository : BaseRepository<ShoppingCartItem>, ISho
             .ToList();
     }
 
+    public async Task<ShoppingCartItem?> GetShoppingCartItemByProductItemId(string userId, string productItemId)
+    {
+        return await FindByCondition(c => c.UserId == userId && c.ProductItemId == productItemId, trackChanges: false).SingleOrDefaultAsync();
+    }
+
     public void ClearShoppingCart(string userId)
     {
         var cartItems = FindByCondition(c => c.UserId == userId, trackChanges: false)
