@@ -6,4 +6,5 @@ public interface IRepositoryManager
     public ICategoryRepository Category { get; }
     public IProductRepository Product { get; }
     public IVariantRepository Variant { get; }
+    public IProductItemRepository ProductItem { get; }
 }

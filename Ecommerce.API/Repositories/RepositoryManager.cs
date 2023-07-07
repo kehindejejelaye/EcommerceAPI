@@ -10,14 +10,16 @@ public class RepositoryManager : IRepositoryManager
     private readonly ICategoryRepository _categoryRepository;
     private readonly IProductRepository _productRepository;
     private readonly IVariantRepository _variantRepository;
+    private readonly IProductItemRepository _piRepository;
 
 
-    public RepositoryManager(EcommerceContext context, ICategoryRepository categoryRepository, IProductRepository productRepository, IVariantRepository variantRepository)
+    public RepositoryManager(EcommerceContext context, ICategoryRepository categoryRepository, IProductRepository productRepository, IVariantRepository variantRepository, IProductItemRepository piRepository)
     {
         _context = context;
         _categoryRepository = categoryRepository;
         _productRepository = productRepository;
         _variantRepository = variantRepository;
+        _piRepository = piRepository;
     }
 
     public Task SaveAsync() => _context.SaveChangesAsync();
@@ -34,5 +36,10 @@ public class RepositoryManager : IRepositoryManager
     public IVariantRepository Variant
     {
         get { return _variantRepository; }
+    }
+
+    public IProductItemRepository ProductItem
+    {
+        get { return _piRepository; }
     }
 }
