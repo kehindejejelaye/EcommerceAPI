@@ -1,10 +1,11 @@
-﻿using Ecommerce.API.Data;
+﻿using Ecommerce.API.Contracts;
+using Ecommerce.API.Data;
 using Ecommerce.API.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace Ecommerce.API.Repositories;
 
-public class ShoppingCartItemRepository : BaseRepository<ShoppingCartItem>
+public class ShoppingCartItemRepository : BaseRepository<ShoppingCartItem>, IShoppingCartItemRepository
 {
     public ShoppingCartItemRepository(EcommerceContext _ecomContext) : base(_ecomContext)
     {
