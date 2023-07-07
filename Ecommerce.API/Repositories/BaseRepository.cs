@@ -25,4 +25,5 @@ public abstract class BaseRepository<T> : IBaseRepository<T> where T : class
     public void Create(T entity) => ecomContext.Set<T>().Add(entity);
     public void Update(T entity) => ecomContext.Set<T>().Update(entity);
     public void Delete(T entity) => ecomContext.Set<T>().Remove(entity);
+    public void DeleteMultiple(IEnumerable<T> entities) => ecomContext.Set<T>().RemoveRange(entities);
 }
