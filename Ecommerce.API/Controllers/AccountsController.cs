@@ -61,6 +61,11 @@ public class AccountsController : ControllerBase
 
         var createUserResult = await _userManager.CreateAsync(appUser, user.Password);
 
+        if (createUserResult.Succeeded)
+        {
+            await _userManager.AddToRoleAsync(appUser, "User");
+        }
+
         return !createUserResult.Succeeded ? BadRequest(createUserResult.Errors) : NoContent();
     }
 
