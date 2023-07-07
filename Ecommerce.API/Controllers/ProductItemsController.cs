@@ -50,7 +50,7 @@ namespace Ecommerce.API.Controllers
                 return NotFound();
             }
 
-            var productItemInProduct = await _repoManager.ProductItem.GetProductItemById(categoryId, productId, productItemId, false);
+            var productItemInProduct = await _repoManager.ProductItem.GetProductItemByIdWithCategoryIdAndProductId(categoryId, productId, productItemId, false);
 
             if (productItemInProduct == null)
                 return NotFound();
@@ -94,7 +94,7 @@ namespace Ecommerce.API.Controllers
                 return NotFound();
             }
 
-            var productItemInProductFromRepo = await _repoManager.ProductItem.GetProductItemById(categoryId, productId, productItemId, false);
+            var productItemInProductFromRepo = await _repoManager.ProductItem.GetProductItemByIdWithCategoryIdAndProductId(categoryId, productId, productItemId, false);
 
             if (productItemInProductFromRepo == null)
                 return NotFound();
@@ -118,7 +118,7 @@ namespace Ecommerce.API.Controllers
                 return NotFound();
             }
 
-            var productItemInProductFromRepo = await _repoManager.ProductItem.GetProductItemById(categoryId, productId, productItemId, false);
+            var productItemInProductFromRepo = await _repoManager.ProductItem.GetProductItemByIdWithCategoryIdAndProductId(categoryId, productId, productItemId, false);
 
             if (productItemInProductFromRepo == null)
                 return NotFound();
