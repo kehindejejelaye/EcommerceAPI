@@ -25,7 +25,7 @@ public class AccountsController : ControllerBase
         _mapper = mapper;
     }
 
-    private string CreateToken(string email, string role)
+    private string CreateToken(string email, string id, string role)
     {
         var securityKey = new SymmetricSecurityKey(
             Encoding.UTF8.GetBytes(_config["Authentication:SecretForKey"]));
@@ -35,6 +35,7 @@ public class AccountsController : ControllerBase
         List<Claim> claimsForToken = new List<Claim>
         {
             new Claim("sub", email),
+            new Claim("id", id),
             new Claim("roles", role)
         };
 
@@ -78,7 +79,7 @@ public class AccountsController : ControllerBase
 
         var userToReturn = _mapper.Map<UserDto>(userFromDb);
 
-        userToReturn.Jwt = CreateToken(user.Email, roles[0]);
+        userToReturn.Jwt = CreateToken(user.Email, userFromDb.Id, roles[0]);
 
         return Ok(userToReturn);
     }
