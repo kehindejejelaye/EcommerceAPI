@@ -22,4 +22,21 @@ public class ShoppingCartItemRepository : BaseRepository<ShoppingCartItem>
 
         shoppingCartItem.Quantity += item.Quantity;
     }
+
+    public async void RemoveFromCart(ShoppingCartItem item)
+    {
+        var shoppingCartItem = await FindByCondition(_item => item.UserId == _item.UserId && item.ProductItemId == _item.ProductItemId, trackChanges: false).SingleOrDefaultAsync();
+
+        if (shoppingCartItem != null)
+        {
+            if (shoppingCartItem.Quantity > 1)
+            {
+                shoppingCartItem.Quantity -= item.Quantity;
+            }
+            else
+            {
+                Delete(shoppingCartItem);
+            }
+        }
+    }
 }
