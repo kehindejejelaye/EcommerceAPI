@@ -13,7 +13,7 @@ public class ShoppingCartItemRepository : BaseRepository<ShoppingCartItem>, ISho
 
     public async void AddToCart(ShoppingCartItem item)
     {
-        var shoppingCartItem = await FindByCondition(_item => item.UserId == _item.UserId && item.ProductItemId == _item.ProductItemId, trackChanges: false).SingleOrDefaultAsync();
+        var shoppingCartItem = await FindByCondition(_item => item.UserId == _item.UserId && item.ProductItemId == _item.ProductItemId, trackChanges: true).SingleOrDefaultAsync();
 
         if (shoppingCartItem == null)
         {
@@ -26,7 +26,7 @@ public class ShoppingCartItemRepository : BaseRepository<ShoppingCartItem>, ISho
 
     public async void RemoveFromCart(ShoppingCartItem item)
     {
-        var shoppingCartItem = await FindByCondition(_item => item.UserId == _item.UserId && item.ProductItemId == _item.ProductItemId, trackChanges: false).SingleOrDefaultAsync();
+        var shoppingCartItem = await FindByCondition(_item => item.UserId == _item.UserId && item.ProductItemId == _item.ProductItemId, trackChanges: true).SingleOrDefaultAsync();
 
         if (shoppingCartItem != null)
         {
@@ -63,7 +63,13 @@ public class ShoppingCartItemRepository : BaseRepository<ShoppingCartItem>, ISho
 
     public decimal GetShoppingCartTotal(string userId)
     {
-        return FindByCondition(c => c.UserId == userId, trackChanges: false)
-            .Sum(c => c.Quantity * c.ProductItem.Price);
+        var cartItems = FindByCondition(c => c.UserId == userId, trackChanges: false)
+        .Include(c => c.ProductItem)
+        .ToList();
+
+        var total = cartItems
+            .Sum(c => (double)c.Quantity * (double)c.ProductItem.Price);
+
+        return (decimal)Math.Round(total, 2);
     }
 }
