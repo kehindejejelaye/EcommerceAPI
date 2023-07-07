@@ -1,6 +1,7 @@
 using Ecommerce.API.Contracts;
 using Ecommerce.API.Data;
 using Ecommerce.API.Entities;
+using Ecommerce.API.Extensions;
 using Ecommerce.API.InitializeDb;
 using Ecommerce.API.Repositories;
 using Microsoft.AspNetCore.Identity;
@@ -51,9 +52,13 @@ DbInitializer.SeedDb(app).Wait();
 app.UseSwagger();
 app.UseSwaggerUI();
 
+
+
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
+app.UseErrorHandlingMiddleware();
 
 app.MapControllers();
 
