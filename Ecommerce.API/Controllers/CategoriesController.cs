@@ -2,6 +2,7 @@
 using Ecommerce.API.Contracts;
 using Ecommerce.API.DTOs.Category;
 using Ecommerce.API.Entities;
+using Ecommerce.API.Helpers;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Ecommerce.API.Controllers;
@@ -20,9 +21,9 @@ public class CategoriesController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<ActionResult> GetCategories()
+    public async Task<ActionResult> GetCategories([FromQuery] RequestParameters requestParameters)
     {
-        var categories = await _repoManager.Category.GetAllCategories(false);
+        var categories = await _repoManager.Category.GetAllCategories(requestParameters, false);
         var _categories = _mapper.Map<IEnumerable<ReadCategoryDto>>(categories);
         return Ok(_categories);
     }

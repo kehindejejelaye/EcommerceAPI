@@ -1,6 +1,7 @@
 ﻿using Ecommerce.API.Contracts;
 using Ecommerce.API.Data;
 using Ecommerce.API.Entities;
+using Ecommerce.API.Helpers;
 using Microsoft.EntityFrameworkCore;
 
 namespace Ecommerce.API.Repositories;
@@ -17,11 +18,18 @@ public class CategoryRepository : BaseRepository<Category>, ICategoryRepository
             .SingleOrDefaultAsync();
     }
 
-    public async Task<IEnumerable<Category>> GetAllCategories(bool trackChanges)
+    public async Task<IEnumerable<Category>> GetAllCategories(RequestParameters requestParameters, bool trackChanges)
     {
-        return await FindAll(trackChanges)
-            .OrderBy(c => c.Name)
-            .ToListAsync();
+        //return await FindAll(trackChanges)
+        //    .OrderBy(c => c.Name)
+        //    .ToListAsync();
+
+        var collection = FindAll(trackChanges)
+            .OrderBy(c => c.Name);
+
+        return await PagedList<Category>.CreateAsync(collection,
+             requestParameters.PageNumber,
+             requestParameters.PageSize);
     }
 
     public void CreateCategory(Category category) => Create(category);

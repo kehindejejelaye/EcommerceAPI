@@ -1,10 +1,11 @@
 ﻿using Ecommerce.API.Entities;
+using Ecommerce.API.Helpers;
 
 namespace Ecommerce.API.Contracts;
 
 public interface ICategoryRepository
 {
-    Task<IEnumerable<Category>> GetAllCategories(bool trackChanges);
+    Task<IEnumerable<Category>> GetAllCategories(RequestParameters requestParameters, bool trackChanges);
     Task<Category?> GetCategoryById(string categoryId, bool trackChanges);
     void CreateCategory(Category category);
 
