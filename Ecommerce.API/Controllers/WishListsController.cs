@@ -67,31 +67,31 @@ namespace Ecommerce.API.Controllers
             return CreatedAtRoute("GetWishListForUserById", new { userId, wishListId = createdWishListDto.Id }, createdWishListDto);
         }
 
-        [HttpPut("{wishListId}")]
-        public async Task<IActionResult> UpdateWishList(string userId, string wishListId, UpdateWishListDto wishListDto)
-        {
-            var user = await _userManager.FindByIdAsync(userId);
+        //[HttpPut("{wishListId}")]
+        //public async Task<IActionResult> UpdateWishList(string userId, string wishListId, UpdateWishListDto wishListDto)
+        //{
+        //    var user = await _userManager.FindByIdAsync(userId);
 
-            if (user == null)
-            {
-                return NotFound();
-            }
+        //    if (user == null)
+        //    {
+        //        return NotFound();
+        //    }
 
-            var wishListEntity = await _repoManager.WishList.GetWishListForUserById(userId, wishListId, true);
+        //    var wishListEntity = await _repoManager.WishList.GetWishListForUserById(userId, wishListId, true);
 
-            if (wishListEntity == null)
-            {
-                return NotFound();
-            }
+        //    if (wishListEntity == null)
+        //    {
+        //        return NotFound();
+        //    }
 
-            _mapper.Map(wishListDto, wishListEntity);
-            wishListEntity.UpdatedAt = DateTime.Now;
+        //    _mapper.Map(wishListDto, wishListEntity);
+        //    wishListEntity.UpdatedAt = DateTime.Now;
 
-            _repoManager.WishList.UpdateWishList(wishListEntity);
-            await _repoManager.SaveAsync();
+        //    _repoManager.WishList.UpdateWishList(wishListEntity);
+        //    await _repoManager.SaveAsync();
 
-            return NoContent();
-        }
+        //    return NoContent();
+        //}
 
         [HttpDelete("{wishListId}")]
         public async Task<IActionResult> DeleteWishList(string userId, string wishListId)

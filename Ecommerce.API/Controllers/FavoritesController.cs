@@ -64,31 +64,31 @@ public class FavoritesController : ControllerBase
         return CreatedAtRoute("GetFavoriteForUserById", new { userId, favoriteId = createdFavoriteDto.Id }, createdFavoriteDto);
     }
 
-    [HttpPut("{favoriteId}")]
-    public async Task<IActionResult> UpdateFavorite(string userId, string favoriteId, UpdateFavoriteDto favoriteDto)
-    {
-        var user = await _userManager.FindByIdAsync(userId);
+    //[HttpPut("{favoriteId}")]
+    //public async Task<IActionResult> UpdateFavorite(string userId, string favoriteId, UpdateFavoriteDto favoriteDto)
+    //{
+    //    var user = await _userManager.FindByIdAsync(userId);
 
-        if (user == null)
-        {
-            return NotFound();
-        }
+    //    if (user == null)
+    //    {
+    //        return NotFound();
+    //    }
 
-        var favoriteEntity = await _repoManager.Favorite.GetFavoriteForUserById(userId, favoriteId, true);
+    //    var favoriteEntity = await _repoManager.Favorite.GetFavoriteForUserById(userId, favoriteId, true);
 
-        if (favoriteEntity == null)
-        {
-            return NotFound();
-        }
+    //    if (favoriteEntity == null)
+    //    {
+    //        return NotFound();
+    //    }
 
-        _mapper.Map(favoriteDto, favoriteEntity);
-        favoriteEntity.UpdatedAt = DateTime.Now;
+    //    _mapper.Map(favoriteDto, favoriteEntity);
+    //    favoriteEntity.UpdatedAt = DateTime.Now;
 
-        _repoManager.Favorite.UpdateFavorite(favoriteEntity);
-        await _repoManager.SaveAsync();
+    //    _repoManager.Favorite.UpdateFavorite(favoriteEntity);
+    //    await _repoManager.SaveAsync();
 
-        return NoContent();
-    }
+    //    return NoContent();
+    //}
 
     [HttpDelete("{favoriteId}")]
     public async Task<IActionResult> DeleteFavorite(string userId, string favoriteId)
