@@ -10,4 +10,5 @@ public interface IRepositoryManager
     public IVariantOptionRepository VariantOption { get; }
     public IShoppingCartItemRepository ShoppingCartItem { get; }
     public IAddressRepository Address { get; }
+    public IFavoriteRepository Favorite { get; }
 }
