@@ -9,13 +9,13 @@ namespace Ecommerce.API.Controllers;
 
 [ApiController]
 [Route("api/users/{userId}/favorites")]
-public class FavoriteController : ControllerBase
+public class FavoritesController : ControllerBase
 {
     private readonly IRepositoryManager _repoManager;
     private readonly IMapper _mapper;
     private UserManager<ApplicationUser> _userManager;
 
-    public FavoriteController(IRepositoryManager repoManager, IMapper mapper, UserManager<ApplicationUser> userManager)
+    public FavoritesController(IRepositoryManager repoManager, IMapper mapper, UserManager<ApplicationUser> userManager)
     {
         _repoManager = repoManager;
         _mapper = mapper;
