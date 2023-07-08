@@ -4,9 +4,6 @@ using Ecommerce.API.DTOs.Favorite;
 using Ecommerce.API.Entities;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 
 namespace Ecommerce.API.Controllers;
 
