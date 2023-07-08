@@ -13,9 +13,10 @@ public class RepositoryManager : IRepositoryManager
     private readonly IProductItemRepository _piRepository;
     private readonly IVariantOptionRepository _voRepository;
     private readonly IShoppingCartItemRepository _scRepository;
+    private readonly IAddressRepository _addressRepository;
 
 
-    public RepositoryManager(EcommerceContext context, ICategoryRepository categoryRepository, IProductRepository productRepository, IVariantRepository variantRepository, IProductItemRepository piRepository, IVariantOptionRepository voRepository, IShoppingCartItemRepository scRepository)
+    public RepositoryManager(EcommerceContext context, ICategoryRepository categoryRepository, IProductRepository productRepository, IVariantRepository variantRepository, IProductItemRepository piRepository, IVariantOptionRepository voRepository, IShoppingCartItemRepository scRepository, IAddressRepository addressRepository)
     {
         _context = context;
         _categoryRepository = categoryRepository;
@@ -24,6 +25,7 @@ public class RepositoryManager : IRepositoryManager
         _piRepository = piRepository;
         _voRepository = voRepository;
         _scRepository = scRepository;
+        _addressRepository = addressRepository;
     }
 
     public Task SaveAsync() => _context.SaveChangesAsync();
@@ -55,5 +57,10 @@ public class RepositoryManager : IRepositoryManager
     public IShoppingCartItemRepository ShoppingCartItem
     {
         get { return _scRepository; }
+    }
+
+    public IAddressRepository Address
+    {
+        get { return _addressRepository; }
     }
 }

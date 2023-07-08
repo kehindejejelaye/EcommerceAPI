@@ -9,4 +9,5 @@ public interface IRepositoryManager
     public IProductItemRepository ProductItem { get; }
     public IVariantOptionRepository VariantOption { get; }
     public IShoppingCartItemRepository ShoppingCartItem { get; }
+    public IAddressRepository Address { get; }
 }
