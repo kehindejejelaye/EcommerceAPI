@@ -13,7 +13,7 @@ public class AddressRepository : BaseRepository<Address>, IAddressRepository
 
     public async Task<Address?> GetAddressForUserById(string userId, string addressId)
     {
-        return await FindByCondition(a => a.Id == addressId && a.UserId == userId, trackChanges: false)
+        return await FindByCondition(a => a.Id == addressId && a.UserId == userId, trackChanges: false).Include(a => a.Country)
             .SingleOrDefaultAsync();
     }
 
