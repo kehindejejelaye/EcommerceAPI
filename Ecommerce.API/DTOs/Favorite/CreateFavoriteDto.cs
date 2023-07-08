@@ -1,6 +1,6 @@
-﻿namespace Ecommerce.API.DTOs.Favorite;
+﻿namespace Ecommerce.API.DTOs.WishList;
 
-public class CreateFavoriteDto
+public class CreateWishListDto
 {
     public string ProductItemId { get; set; }
     public string UserId { get; set; }
