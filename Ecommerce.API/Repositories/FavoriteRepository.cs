@@ -11,14 +11,14 @@ public class FavoriteRepository : BaseRepository<Favorite>, IFavoriteRepository
     {
     }
 
-    public async Task<Favorite?> GetFavoriteById(string favoriteId, bool trackChanges)
+    public async Task<Favorite?> GetFavoriteForUserById(string userId, string favoriteId, bool trackChanges)
     {
-        return await FindByCondition(f => f.Id == favoriteId, trackChanges)
+        return await FindByCondition(f => f.Id == favoriteId && f.UserId == userId, trackChanges)
             .Include(f => f.ProductItem)
             .SingleOrDefaultAsync();
     }
 
-    public async Task<IEnumerable<Favorite>> GetFavoritesByUserId(string userId, bool trackChanges)
+    public async Task<IEnumerable<Favorite>> GetFavoritesForUserByUserId(string userId, bool trackChanges)
     {
         return await FindByCondition(f => f.UserId == userId, trackChanges)
             .Include(f => f.ProductItem)

@@ -6,7 +6,7 @@ public interface IFavoriteRepository
 {
     void AddFavorite(Favorite favorite);
     void DeleteFavorite(Favorite favorite);
-    Task<Favorite> GetFavoriteById(string favoriteId, bool trackChanges);
-    Task<IEnumerable<Favorite>> GetFavoritesByUserId(string userId, bool trackChanges);
+    Task<Favorite> GetFavoriteForUserById(string userId, string favoriteId, bool trackChanges);
+    Task<IEnumerable<Favorite>> GetFavoritesForUserByUserId(string userId, bool trackChanges);
     void UpdateFavorite(Favorite favorite);
 }
