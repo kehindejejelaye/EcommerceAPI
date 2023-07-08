@@ -11,4 +11,5 @@ public interface IRepositoryManager
     public IShoppingCartItemRepository ShoppingCartItem { get; }
     public IAddressRepository Address { get; }
     public IFavoriteRepository Favorite { get; }
+    public IWishListRepository WishList { get; }
 }
