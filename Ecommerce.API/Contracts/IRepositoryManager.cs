@@ -12,4 +12,5 @@ public interface IRepositoryManager
     public IAddressRepository Address { get; }
     public IFavoriteRepository Favorite { get; }
     public IWishListRepository WishList { get; }
+    public IReviewRepository Review { get; }
 }
