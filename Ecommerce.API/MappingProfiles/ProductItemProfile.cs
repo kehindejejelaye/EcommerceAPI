@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using Ecommerce.API.DTOs.ProductItem;
+using Ecommerce.API.DTOs.ProductItems;
 using Ecommerce.API.Entities;
 using Ecommerce.API.Repositories;
 

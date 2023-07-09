@@ -1,4 +1,4 @@
-﻿namespace Ecommerce.API.DTOs.ProductItem;
+﻿namespace Ecommerce.API.DTOs.ProductItems;
 
 public class UpdateProductItemDto
 {

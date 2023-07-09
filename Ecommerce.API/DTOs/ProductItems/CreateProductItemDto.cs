@@ -1,8 +1,7 @@
-﻿namespace Ecommerce.API.DTOs.ProductItem;
+﻿namespace Ecommerce.API.DTOs.ProductItems;
 
-public class ReadProductItemDto
+public class CreateProductItemDto
 {
-    public string Id { get; set; }
     public string SKU { get; set; }
     public string QuantityInStock { get; set; }
     public string ImageUrl { get; set; } = string.Empty;

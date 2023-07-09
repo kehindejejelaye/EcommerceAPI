@@ -1,7 +1,8 @@
 ﻿using AutoMapper;
 using Ecommerce.API.Contracts;
-using Ecommerce.API.DTOs.ProductItem;
+using Ecommerce.API.DTOs.ProductItems;
 using Ecommerce.API.Entities;
+using Ecommerce.API.Helpers;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Ecommerce.API.Controllers
@@ -20,7 +21,7 @@ namespace Ecommerce.API.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult> GetAllProductItemsInProduct(string categoryId, string productId)
+        public async Task<ActionResult> GetAllProductItemsInProduct(string categoryId, string productId, [FromQuery] RequestParameters requestParameters)
         {
             if (!await _repoManager.Category.CategoryExistsAsync(categoryId, false))
             {
