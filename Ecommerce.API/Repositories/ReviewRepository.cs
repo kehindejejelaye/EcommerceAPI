@@ -11,11 +11,18 @@ public class ReviewRepository : BaseRepository<Review>, IReviewRepository
     {
     }
 
-    public async Task<Review?> GetUserReviewForProudctItem(string userId, string productItemId, bool trackChanges)
+    public async Task<Review?> GetUserReviewForProudctItem(string userId, string reviewId, bool trackChanges)
     {
-        return await FindByCondition(r => r.UserId == userId && r.ProductItemId == productItemId, trackChanges)
+        return await FindByCondition(r => r.UserId == userId && r.Id == reviewId, trackChanges)
             .Include(r => r.ProductItem)
             .SingleOrDefaultAsync();
+    }
+
+    public async Task<IEnumerable<Review>> GetReviewsMadeByAParticularUser(string userId, bool trackChanges)
+    {
+        return await FindByCondition(r => r.UserId == userId, trackChanges)
+            .Include(r => r.ProductItem)
+            .ToListAsync();
     }
 
     public async Task<IEnumerable<Review>> GetReviewsForProduct(string productId, bool trackChanges)

@@ -9,5 +9,6 @@ public interface IReviewRepository
     Task<Review?> GetUserReviewForProudctItem(string userId, string productItemId, bool trackChanges);
     Task<double> GetAverageRatingForProduct(string productItemId);
     Task<IEnumerable<Review>> GetReviewsForProduct(string productItemId, bool trackChanges);
+    Task<IEnumerable<Review>> GetReviewsMadeByAParticularUser(string userId, bool trackChanges);
     void UpdateReview(Review review);
 }
