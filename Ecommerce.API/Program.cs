@@ -4,6 +4,7 @@ using Ecommerce.API.Entities;
 using Ecommerce.API.Extensions;
 using Ecommerce.API.InitializeDb;
 using Ecommerce.API.Repositories;
+using Ecommerce.API.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
@@ -40,6 +41,8 @@ builder.Services.AddScoped<IAddressRepository, AddressRepository>();
 builder.Services.AddScoped<IFavoriteRepository, FavoriteRepository>();
 builder.Services.AddScoped<IWishListRepository, WishListRepository>();
 builder.Services.AddScoped<IReviewRepository, ReviewRepository>();
+//builder.Services.AddScoped<IPropertyMapping, PropertyMapping<typeof(), typeof()>>();
+builder.Services.AddTransient<IPropertyMappingService, PropertyMappingService>();
 
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
 {
