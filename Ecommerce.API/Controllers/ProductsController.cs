@@ -2,6 +2,7 @@
 using Ecommerce.API.Contracts;
 using Ecommerce.API.DTOs.Product;
 using Ecommerce.API.Entities;
+using Ecommerce.API.Helpers;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Ecommerce.API.Controllers;
@@ -20,9 +21,9 @@ public class ProductsController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<ActionResult> GetAllProductsInACategory(string categoryId)
+    public async Task<ActionResult> GetAllProductsInACategory([FromQuery] RequestParameters requestParameters, string categoryId)
     {
-        var products = await _repoManager.Product.GetAllProductsInACategory(categoryId, false);
+        var products = await _repoManager.Product.GetAllProductsInACategory(requestParameters, categoryId, false);
         var _products = _mapper.Map<IEnumerable<ReadProductDto>>(products);
         return Ok(_products);
     }
