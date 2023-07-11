@@ -23,6 +23,12 @@ public class CategoryRepository : BaseRepository<Category>, ICategoryRepository
         var collection = FindAll(trackChanges);
 
         // filter
+        if (!string.IsNullOrWhiteSpace(requestParameters.FilterOnName))
+        {
+            var filterOnName = requestParameters.FilterOnName.Trim();
+
+            collection = collection.Where(c => c.Name.Contains(filterOnName));
+        }
 
         // search 
         if (!string.IsNullOrWhiteSpace(requestParameters.SearchQuery))
