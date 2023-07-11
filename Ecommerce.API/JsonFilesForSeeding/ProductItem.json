@@ -4,6 +4,7 @@
     "SKU": "TS-001",
     "QuantityInStock": 10,
     "ImageUrl": "https://example.com/images/t-shirt-red-stripe.jpg",
+    "Name": "Red Striped T-Shirt",
     "Description": "Red Striped T-Shirt",
     "Price": 19.99,
     "ProductId": "3fbc1b2f-41b5-49ca-9d01-5ef206b1e42c"
@@ -13,6 +14,7 @@
     "SKU": "TS-002",
     "QuantityInStock": 8,
     "ImageUrl": "https://example.com/images/t-shirt-blue-checkered.jpg",
+    "Name": "Blue Checkered T-Shirt",
     "Description": "Blue Checkered T-Shirt",
     "Price": 24.99,
     "ProductId": "3fbc1b2f-41b5-49ca-9d01-5ef206b1e42c"
@@ -22,6 +24,7 @@
     "SKU": "TS-003",
     "QuantityInStock": 15,
     "ImageUrl": "https://example.com/images/t-shirt-green-polka.jpg",
+    "Name": "Green Polka Dot T-Shirt",
     "Description": "Green Polka Dot T-Shirt",
     "Price": 18.99,
     "ProductId": "3fbc1b2f-41b5-49ca-9d01-5ef206b1e42c"
@@ -31,6 +34,7 @@
     "SKU": "TS-004",
     "QuantityInStock": 12,
     "ImageUrl": "https://example.com/images/t-shirt-yellow-stripe.jpg",
+    "Name": "Blue Striped T-Shirt",
     "Description": "Blue Striped T-Shirt",
     "Price": 21.99,
     "ProductId": "3fbc1b2f-41b5-49ca-9d01-5ef206b1e42c"
@@ -40,6 +44,7 @@
     "SKU": "TS-005",
     "QuantityInStock": 5,
     "ImageUrl": "https://example.com/images/t-shirt-black-graphic.jpg",
+    "Name": "Black Graphic T-Shirt",
     "Description": "Black Graphic T-Shirt",
     "Price": 17.99,
     "ProductId": "3fbc1b2f-41b5-49ca-9d01-5ef206b1e42c"
@@ -49,6 +54,7 @@
     "SKU": "TS-006",
     "QuantityInStock": 20,
     "ImageUrl": "https://example.com/images/t-shirt-purple-floral.jpg",
+    "Name": "Green Floral T-Shirt",
     "Description": "Green Floral T-Shirt",
     "Price": 23.99,
     "ProductId": "3fbc1b2f-41b5-49ca-9d01-5ef206b1e42c"
@@ -58,6 +64,7 @@
     "SKU": "TS-007",
     "QuantityInStock": 10,
     "ImageUrl": "https://example.com/images/t-shirt-red-stripe.jpg",
+    "Name": "Red Striped T-Shirt",
     "Description": "Red Striped T-Shirt",
     "Price": 19.99,
     "ProductId": "3fbc1b2f-41b5-49ca-9d01-5ef206b1e42c"
