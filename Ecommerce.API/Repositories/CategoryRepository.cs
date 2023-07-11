@@ -20,12 +20,19 @@ public class CategoryRepository : BaseRepository<Category>, ICategoryRepository
 
     public async Task<IEnumerable<Category>> GetAllCategories(RequestParameters requestParameters, bool trackChanges)
     {
-        //return await FindAll(trackChanges)
-        //    .OrderBy(c => c.Name)
-        //    .ToListAsync();
+        var collection = FindAll(trackChanges);
 
-        var collection = FindAll(trackChanges)
-            .OrderBy(c => c.Name);
+        // filter
+
+        // search 
+        if (!string.IsNullOrWhiteSpace(requestParameters.SearchQuery))
+        {
+            var searchQuery = requestParameters.SearchQuery.Trim();
+
+            collection = collection.Where(c => c.Name.Contains(searchQuery));
+        }
+
+        // sort
 
         return await PagedList<Category>.CreateAsync(collection,
              requestParameters.PageNumber,
