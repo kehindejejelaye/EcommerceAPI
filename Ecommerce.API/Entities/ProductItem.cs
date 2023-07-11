@@ -4,6 +4,8 @@ namespace Ecommerce.API.Entities;
 
 public class ProductItem : BaseEntity
 {
+    public string Name { get; set; }
+    public string Description { get; set; }
     public string SKU { get; set; }
     public string QuantityInStock { get; set; }
     public string ImageUrl { get; set; } = string.Empty;
