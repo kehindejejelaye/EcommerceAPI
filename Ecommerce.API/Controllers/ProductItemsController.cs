@@ -33,7 +33,7 @@ namespace Ecommerce.API.Controllers
                 return NotFound();
             }
 
-            var productItems = await _repoManager.ProductItem.GetAllProductItemsInProduct(categoryId, productId, false);
+            var productItems = await _repoManager.ProductItem.GetAllProductItemsInProduct(requestParameters, categoryId, productId, false);
             var _productItems = _mapper.Map<IEnumerable<ReadProductItemDto>>(productItems);
             return Ok(_productItems);
         }
