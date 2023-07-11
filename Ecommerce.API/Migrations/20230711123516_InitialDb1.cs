@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Ecommerce.API.Migrations
 {
-    public partial class InitialDb : Migration
+    public partial class InitialDb1 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -68,6 +68,7 @@ namespace Ecommerce.API.Migrations
                 {
                     Id = table.Column<string>(type: "TEXT", nullable: false),
                     Name = table.Column<string>(type: "TEXT", nullable: false),
+                    CountryCode = table.Column<string>(type: "TEXT", nullable: false),
                     CreatedAt = table.Column<DateTime>(type: "TEXT", nullable: false),
                     UpdatedAt = table.Column<DateTime>(type: "TEXT", nullable: true)
                 },
@@ -277,6 +278,8 @@ namespace Ecommerce.API.Migrations
                 columns: table => new
                 {
                     Id = table.Column<string>(type: "TEXT", nullable: false),
+                    Name = table.Column<string>(type: "TEXT", nullable: false),
+                    Description = table.Column<string>(type: "TEXT", nullable: false),
                     SKU = table.Column<string>(type: "TEXT", nullable: false),
                     QuantityInStock = table.Column<string>(type: "TEXT", nullable: false),
                     ImageUrl = table.Column<string>(type: "TEXT", nullable: false),
@@ -468,10 +471,7 @@ namespace Ecommerce.API.Migrations
                 columns: table => new
                 {
                     ProductItemId = table.Column<string>(type: "TEXT", nullable: false),
-                    VariantOptionId = table.Column<string>(type: "TEXT", nullable: false),
-                    Id = table.Column<string>(type: "TEXT", nullable: true),
-                    CreatedAt = table.Column<DateTime>(type: "TEXT", nullable: false),
-                    UpdatedAt = table.Column<DateTime>(type: "TEXT", nullable: true)
+                    VariantOptionId = table.Column<string>(type: "TEXT", nullable: false)
                 },
                 constraints: table =>
                 {
