@@ -1,16 +1,25 @@
 ﻿using Ecommerce.API.Contracts;
+using Ecommerce.API.DTOs.Category;
+using Ecommerce.API.Entities;
 
 namespace Ecommerce.API.Services;
 
 public class PropertyMappingService : IPropertyMappingService
 {
-    private readonly Dictionary<string, PropertyMappingValue> _authorPropertyMapping =
+    //private readonly Dictionary<string, PropertyMappingValue> _authorPropertyMapping =
+    //    new(StringComparer.OrdinalIgnoreCase)
+    //    {
+    //        { "Id", new(new[] { "Id" }) },
+    //        { "MainCategory", new(new[] { "MainCategory" }) },
+    //        { "Age", new(new[] { "DateOfBirth" }, true) },
+    //        { "Name", new(new[] { "FirstName", "LastName" }) }
+    //    };
+
+    private readonly Dictionary<string, PropertyMappingValue> _categoryPropertyMapping =
         new(StringComparer.OrdinalIgnoreCase)
         {
             { "Id", new(new[] { "Id" }) },
-            { "MainCategory", new(new[] { "MainCategory" }) },
-            { "Age", new(new[] { "DateOfBirth" }, true) },
-            { "Name", new(new[] { "FirstName", "LastName" }) }
+            { "Name", new(new[] { "Name" }) }
         };
 
     private readonly IList<IPropertyMapping> _propertyMappings =
@@ -18,8 +27,8 @@ public class PropertyMappingService : IPropertyMappingService
 
     public PropertyMappingService()
     {
-        _propertyMappings.Add(new PropertyMapping<AuthorDto, Author>(
-            _authorPropertyMapping));
+        _propertyMappings.Add(new PropertyMapping<ReadCategoryDto, Category>(
+            _categoryPropertyMapping));
     }
 
     public Dictionary<string, PropertyMappingValue> GetPropertyMapping
