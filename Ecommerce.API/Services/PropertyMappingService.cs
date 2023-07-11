@@ -1,5 +1,6 @@
 ﻿using Ecommerce.API.Contracts;
 using Ecommerce.API.DTOs.Category;
+using Ecommerce.API.DTOs.Product;
 using Ecommerce.API.Entities;
 
 namespace Ecommerce.API.Services;
@@ -22,13 +23,24 @@ public class PropertyMappingService : IPropertyMappingService
             { "Name", new(new[] { "Name" }) }
         };
 
+    private readonly Dictionary<string, PropertyMappingValue> _productPropertyMapping =
+        new(StringComparer.OrdinalIgnoreCase)
+        {
+            { "Id", new(new[] { "Id" }) },
+            { "Name", new(new[] { "Name" }) },
+            { "CategoryId", new(new[] { "CategoryId" }) }
+        };
+
     private readonly IList<IPropertyMapping> _propertyMappings =
         new List<IPropertyMapping>();
 
     public PropertyMappingService()
     {
-        _propertyMappings.Add(new PropertyMapping<ReadCategoryDto, Category>(
-            _categoryPropertyMapping));
+        _propertyMappings = new List<IPropertyMapping>
+        {
+            new PropertyMapping<ReadCategoryDto, Category>(_categoryPropertyMapping),
+            new PropertyMapping<ReadProductDto, Product>(_productPropertyMapping)
+        };
     }
 
     public Dictionary<string, PropertyMappingValue> GetPropertyMapping
