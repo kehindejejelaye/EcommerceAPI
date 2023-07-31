@@ -6,7 +6,7 @@ namespace Ecommerce.API.Contracts
     {
         void AddToCart(ShoppingCartItem item);
         void ClearShoppingCart(string userId);
-        List<ShoppingCartItem> GetShoppingCartItems(string userId);
+        Task<List<ShoppingCartItem>> GetShoppingCartItems(string userId);
         decimal GetShoppingCartTotal(string userId);
         void RemoveFromCart(ShoppingCartItem item);
         Task<ShoppingCartItem?> GetShoppingCartItemByProductItemId(string userId, string productItemId);

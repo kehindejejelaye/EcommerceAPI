@@ -41,11 +41,11 @@ public class ShoppingCartItemRepository : BaseRepository<ShoppingCartItem>, ISho
         }
     }
 
-    public List<ShoppingCartItem> GetShoppingCartItems(string userId)
+    public async Task<List<ShoppingCartItem>> GetShoppingCartItems(string userId)
     {
-        return FindByCondition(c => c.UserId == userId, trackChanges: false)
+        return await FindByCondition(c => c.UserId == userId, trackChanges: false)
             .Include(c => c.ProductItem)
-            .ToList();
+            .ToListAsync();
     }
 
     public async Task<ShoppingCartItem?> GetShoppingCartItemByProductItemId(string userId, string productItemId)

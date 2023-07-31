@@ -1,5 +1,6 @@
 ﻿using Ecommerce.API.Entities;
 using Ecommerce.API.Helpers;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Ecommerce.API.Contracts
 {
@@ -12,5 +13,6 @@ namespace Ecommerce.API.Contracts
         Task<ProductItem?> GetProductItemById(string productItemId, bool trackChanges);
         void UpdateProductItem(ProductItem productItem);
         Task<bool> DoesProductItemExist(string productItemId, bool trackChanges);
+        Task<IEnumerable<ProductItem>> SearchProductItems([FromQuery] RequestParameters requestParameters);
     }
 }

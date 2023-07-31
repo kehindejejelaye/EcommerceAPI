@@ -4,6 +4,7 @@ using Ecommerce.API.DTOs.Product;
 using Ecommerce.API.Entities;
 using Ecommerce.API.Helpers;
 using Ecommerce.API.Services;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace Ecommerce.API.Repositories
@@ -71,6 +72,21 @@ namespace Ecommerce.API.Repositories
 
             return await PagedList<ProductItem>.CreateAsync(collection, requestParameters.PageNumber, requestParameters.PageSize);
         }
+
+        public async Task<IEnumerable<ProductItem>> SearchProductItems([FromQuery] RequestParameters requestParameters)
+        {
+            if (!string.IsNullOrWhiteSpace(requestParameters.SearchQuery))
+            {
+                var searchQuery = requestParameters.SearchQuery.Trim().ToLower();
+
+                var collection = FindByCondition(pi => pi.Name.ToLower().Contains(searchQuery), false);
+
+                return await PagedList<ProductItem>.CreateAsync(collection, requestParameters.PageNumber, requestParameters.PageSize);
+            }
+
+            return Enumerable.Empty<ProductItem>();
+        }
+
 
         public void CreateProductItem(ProductItem productItem) => Create(productItem);
 
