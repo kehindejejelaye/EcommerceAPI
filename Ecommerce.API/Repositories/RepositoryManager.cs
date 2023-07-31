@@ -17,7 +17,8 @@ public class RepositoryManager : IRepositoryManager
     private readonly IFavoriteRepository _favoriteRepository;
     private readonly IWishListRepository _wishListRepository;
     private readonly IReviewRepository _reviewRepository;
-    public RepositoryManager(EcommerceContext context, ICategoryRepository categoryRepository, IProductRepository productRepository, IVariantRepository variantRepository, IProductItemRepository piRepository, IVariantOptionRepository voRepository, IShoppingCartItemRepository scRepository, IAddressRepository addressRepository, IFavoriteRepository favoriteRepository, IWishListRepository wishListRepository, IReviewRepository reviewRepository)
+    private readonly IOrderRepository _orderRepository;
+    public RepositoryManager(EcommerceContext context, ICategoryRepository categoryRepository, IProductRepository productRepository, IVariantRepository variantRepository, IProductItemRepository piRepository, IVariantOptionRepository voRepository, IShoppingCartItemRepository scRepository, IAddressRepository addressRepository, IFavoriteRepository favoriteRepository, IWishListRepository wishListRepository, IReviewRepository reviewRepository, IOrderRepository orderRepository)
     {
         _context = context;
         _categoryRepository = categoryRepository;
@@ -30,9 +31,15 @@ public class RepositoryManager : IRepositoryManager
         _favoriteRepository = favoriteRepository;
         _wishListRepository = wishListRepository;
         _reviewRepository = reviewRepository;
+        _orderRepository = orderRepository;
     }
 
     public Task SaveAsync() => _context.SaveChangesAsync();
+
+    public IOrderRepository Order
+    {
+        get { return _orderRepository; }
+    }
 
     public ICategoryRepository Category { 
         get { return _categoryRepository; } 

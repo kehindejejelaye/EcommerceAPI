@@ -9,5 +9,6 @@ namespace Ecommerce.API.Contracts
         Task<IEnumerable<Address>> GetAddressesForUserByUserId(string userId);
         Task<Address?> GetAddressForUserById(string userId, string addressId);
         void UpdateAddress(Address address);
+        Task<Address?> GetPreferredAddressForUser(string userId);
     }
 }

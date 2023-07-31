@@ -16,6 +16,11 @@ public class AddressRepository : BaseRepository<Address>, IAddressRepository
         return await FindByCondition(a => a.Id == addressId && a.UserId == userId, trackChanges: false).Include(a => a.Country)
             .SingleOrDefaultAsync();
     }
+    public async Task<Address?> GetPreferredAddressForUser(string userId)
+    {
+        return await FindByCondition(a => a.UserId == userId && a.IsPreferred == true, trackChanges: false).Include(a => a.Country)
+            .SingleOrDefaultAsync();
+    }
 
     public async Task<IEnumerable<Address>> GetAddressesForUserByUserId(string userId)
     {

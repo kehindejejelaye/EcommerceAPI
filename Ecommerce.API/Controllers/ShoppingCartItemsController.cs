@@ -131,6 +131,8 @@ public class ShoppingCartController : ControllerBase
     [HttpGet("checkout")]
     public async Task<IActionResult> Checkout(string userId)
     {
+        var preferredAddress = await _repoManager.Address.GetPreferredAddressForUser(userId);
+
         var itemsInCart = await _repoManager.ShoppingCartItem.GetShoppingCartItems(userId);
 
         if (itemsInCart.Count == 0)
@@ -138,7 +140,12 @@ public class ShoppingCartController : ControllerBase
             return BadRequest("You cannot checkout an empty cart");
         }
 
+        var populateOrderWithItems = await _repoManager.ShoppingCartItem.PopulateOrderWithItems(userId);
+        populateOrderWithItems.AddressId = preferredAddress.Id;
+        _repoManager.Order.CreateOrder(populateOrderWithItems);
+        _repoManager.ShoppingCartItem.ClearShoppingCart(userId);
+        await _repoManager.SaveAsync();
 
-        return Ok();
+        return Ok("Order successfully placed");
     }
 }

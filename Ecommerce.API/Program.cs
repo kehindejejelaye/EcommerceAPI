@@ -41,6 +41,7 @@ builder.Services.AddScoped<IAddressRepository, AddressRepository>();
 builder.Services.AddScoped<IFavoriteRepository, FavoriteRepository>();
 builder.Services.AddScoped<IWishListRepository, WishListRepository>();
 builder.Services.AddScoped<IReviewRepository, ReviewRepository>();
+builder.Services.AddScoped<IOrderRepository, OrderRepository>();
 //builder.Services.AddScoped<IPropertyMapping, PropertyMapping<typeof(), typeof()>>();
 builder.Services.AddTransient<IPropertyMappingService, PropertyMappingService>();
 

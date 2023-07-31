@@ -10,5 +10,6 @@ namespace Ecommerce.API.Contracts
         decimal GetShoppingCartTotal(string userId);
         void RemoveFromCart(ShoppingCartItem item);
         Task<ShoppingCartItem?> GetShoppingCartItemByProductItemId(string userId, string productItemId);
+        Task<Order> PopulateOrderWithItems(string userId);
     }
 }
